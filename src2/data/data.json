@@ -1,0 +1,685 @@
+{
+success: true,
+data: [
+{
+id: "5ab34443e7b166bb7b9ecd06",
+author_id: "596a2b5edb0b6aec18a28569",
+tab: "share",
+content: "<div class="markdown-text"><p>加入cnodejs社区也快1年了，没对社区做过什么贡献，看到社区要公测，刚好自己在公司使用node.js做自动化测试。 这次我要对社区贡献一套UI自动化代码，别人如果想自己搭建一套社区的话，可以直接运行这套UI自动化代码来检查UI功能。 平时工作时间比较忙，所以本周日我计划要做如下的事情， 为了让大家都能看懂我的代码，我会使用行为驱动测试的方式来写代码，完成之后的代码大致如下： <img src="//dn-cnode.qbox.me/FpAr57XACJfit4rzN4sa2BBulYUj" alt="image.png"> 可以通过查阅文字描述了解测试的功能点。</p> <p>现在我想拉个微信群，如果各位有兴趣，我们可以一起来做。不会写代码也没有关系，可以帮助我们来写测试用例，或者给我们写的测试用例提建议。 <img src="//dn-cnode.qbox.me/FlVUhc1vFM8HAnb0jH1hRHfT6Nu5" alt="微信图片_20180322133956.png"></p> </div>",
+title: "为社区做贡献，帮社区写自动化测试代码",
+last_reply_at: "2018-04-23T03:36:27.383Z",
+good: false,
+top: true,
+reply_count: 65,
+visit_count: 6637,
+create_at: "2018-03-22T05:50:59.209Z",
+author: {
+loginname: "imzengyang",
+avatar_url: "https://avatars1.githubusercontent.com/u/22312483?v=4&s=120"
+}
+},
+{
+id: "5aae1cc8f5dfc27d7ad98909",
+author_id: "4efc278525fa69ac69000013",
+tab: "share",
+content: "<div class="markdown-text"><blockquote> <p>更新：公测版本已经上线，请访问 <a href="http://egg.cnodejs.org/">http://egg.cnodejs.org/</a> ，如遇到任何问题，请提交issue <a href="https://github.com/cnodejs/egg-cnode/issues">https://github.com/cnodejs/egg-cnode/issues</a> ，谢谢各位。 更新：egg 版本已经正式运营在 <a href="https://cnodejs.org/">https://cnodejs.org/</a> 下。<a href="http://egg.cnodejs.org">egg.cnodejs.org</a> 将下线。</p> </blockquote> <p>在近期，经过社区的小伙伴们的一起努力下，我们基于 Egg.js 将 nodeclub 进行了重写，重写后的代码仓库位于 <a href="https://github.com/cnodejs/egg-cnode">https://github.com/cnodejs/egg-cnode</a> 。</p> <p>原版的 nodeclub 是 2012 年左右，在淘宝实习的某个同学实现的，当时的情况下，几乎没有多少人有过 Node.js 开发真实项目的经验，因此，该项目也存在诸多稚嫩之处，曾经也被 ITeye 的大佬批判过。</p> <p>后来在 alsotang、题叶等人的维护下，CNode 经历过一次较大的重构，但那次重构没有对原来的项目进行根本性的改动，重点是用户体验层面的改动。因此 nodeclub 依然保持着比较古老的方式，express + ejs + mongoose 等。原项目缺乏一些工程性的问题：</p> <ol> <li>基于 Callback 回调的风格，在维护上较为困难。</li> <li>没有健壮的进程守护机制，纯粹依靠 PM2 。</li> <li>目前该项目运行时也是单机模式，没有更好的可用性。</li> </ol> <p>本次我们基于 ES 8、Egg 框架，在不改写业务逻辑，不改写 UI 、交互的前提下，对该项目完成了重写。重写之后的 egg-cnode 具有更好的特性，尤其是在可维护性上，有极大程度上的改进，在测试覆盖率方面，以更少的代码量实现了更高的覆盖率。重写过程历时 3 个礼拜，贡献人数 10 人，以社区协作的形式完成。</p> <p>我们将在稍后的一个时间将新的版本进行上线测试，也欢迎大家关注我们新的代码仓库。最后感谢：<a href="/user/sinchang">@sinchang</a>、<a href="/user/thonatos">@thonatos</a>、<a href="/user/lqs469">@lqs469</a> 等人参与的贡献。欢迎大家继续关注我们的项目。</p> </div>",
+title: "【已正式上线】基于 Egg 的 CNode 社区",
+last_reply_at: "2018-04-22T10:41:02.237Z",
+good: false,
+top: true,
+reply_count: 295,
+visit_count: 14936,
+create_at: "2018-03-18T08:01:12.833Z",
+author: {
+loginname: "JacksonTian",
+avatar_url: "https://avatars3.githubusercontent.com/u/327019?v=4&s=120"
+}
+},
+{
+id: "5adc69fca7d228c16b987161",
+author_id: "55afa32c9594740e76ab3e2e",
+tab: "ask",
+content: "<div class="markdown-text"><p>一楼空着。</p> <p>欢迎打断我来讨论。我如果能一口气写完也不需要这样了。</p> </div>",
+title: "[已放弃] JS 各实现中原生有副作用方法的事务性讨论",
+last_reply_at: "2018-04-23T03:40:28.061Z",
+good: false,
+top: false,
+reply_count: 11,
+visit_count: 182,
+create_at: "2018-04-22T10:54:52.808Z",
+author: {
+loginname: "dou4cc",
+avatar_url: "https://avatars2.githubusercontent.com/u/7764678?v=4&s=120"
+}
+},
+{
+id: "5add4dc5a7d228c16b987180",
+author_id: "5ab87f69320bb09d69e23201",
+tab: "ask",
+content: "<div class="markdown-text"><p>我是一个刚入行的前端渣渣，公司没有项目的时候我就不知道应该学点什么了，希望有人可以提些建议教教我怎么学习，还有就是好多人都说程序员是吃年轻饭的，做了五六年就应该做管理层，但是女生做管理层的好像很少，如果想要转行，我应该往哪转呢</p> </div>",
+title: "前端女生转行",
+last_reply_at: "2018-04-23T03:37:15.911Z",
+good: false,
+top: false,
+reply_count: 5,
+visit_count: 63,
+create_at: "2018-04-23T03:06:45.526Z",
+author: {
+loginname: "jiayin3204",
+avatar_url: "https://avatars0.githubusercontent.com/u/31952729?v=4&s=120"
+}
+},
+{
+id: "5add4c35a7d228c16b98717f",
+author_id: "56089f83148959375f34ff5e",
+tab: "ask",
+content: "<div class="markdown-text"><p>新人写了个demo 大概功能就是获取一张图片然后合成上传腾讯云 但是测试发现很多失败的请求 <img src="//dn-cnode.qbox.me/FpzBmt2gFJ08KYa2bmLPDX6yhvn5" alt="169505E3AABE23ECEC7043749B7AF7E2.jpg"> 大致测试结果只有21个成功了 估计是node异步之类Promise间的问题 想问问到底是哪里出了错 导致整个请求可能出错</p> <pre class="prettyprint language-javascript"><code>const fs = require(&#x27;fs&#x27;) const Canvas = require(&#x27;canvas&#x27;) const path = require(&#x27;path&#x27;) const cos = require(&#x27;..&#x2F;..&#x2F;utils&#x2F;os&#x27;) const config = require(&#x27;..&#x2F;..&#x2F;config&#x2F;default&#x27;) const request = require(&#x27;request&#x27;) let response = require(&#x27;..&#x2F;..&#x2F;utils&#x2F;defaultResponse&#x27;) function processingPicture(context, next) { return new Promise((resolve, reject) =&gt; { let avatarUrl = context.request.query.avatarUrl let luckStatus = context.request.query.luckStatus let nickName = context.request.query.nickName if (!avatarUrl || !luckStatus || !nickName || luckStatus &gt; 16) { response.Success = false response.ErrorCode = 101 response.ErrorMessage = &#x27;请传入正确参数&#x27; context.body = response return } let Image = Canvas.Image let defaultConfig = { width: 750, height: 1206 } let canvas = new Canvas(defaultConfig.width, defaultConfig.height) let ctx = canvas.getContext(&#x27;2d&#x27;) let img = new Image() let avatar = new Image() img.src = fs.readFileSync(path.resolve(__dirname, luckStatus.png)) ctx.drawImage(img, 0, 0, defaultConfig.width, defaultConfig.height) ctx.font = &#x27;32px Impact&#x27; ctx.fillStyle = &#x27;#1a5e7e&#x27; ctx.fillText(nickName, 205, 130) requestAsync({ url: avatarUrl, encoding: null }).then(avatarBuffer =&gt; { avatar.src = avatarBuffer circleImg(ctx, avatar, 525, 92, 46) saveImageFiles(canvas.toDataURL()).then(() =&gt; { resolve(context.body = response) }).catch(err =&gt; console.log(err)) }).catch(err =&gt; console.log(err)) }) } function requestAsync(options) { return new Promise((resolve, reject) =&gt; { request(options, (err, res, body) =&gt; { if (err) { reject(err) } else { resolve(body) } }) }) } &#x2F;** * 绘制圆角图片 * @param {context} ctx canvas实例 * @param {object} img image实例 * @param {int} x x 偏移 * @param {int} y y 偏移 * @param {int} r 半径 * @return {[type]} [description] *&#x2F; function circleImg(ctx, img, x, y, r) { ctx.save() var d = 2 * r var cx = x + r var cy = y + r ctx.arc(cx, cy, r, 0, 2 * Math.PI) ctx.clip() ctx.drawImage(img, x, y, d, d) ctx.restore() } &#x2F;** * [saveImageFiles] * 写入文件 * @return {String} Image数据 *&#x2F; function saveImageFiles(imgData) { return new Promise(async(resolve, reject) =&gt; { let _base64Data = imgData.replace(&#x2F;^data:image\&#x2F;\w+;base64,&#x2F;, &quot;&quot;) let _dataBuffer = new Buffer(_base64Data, &#x27;base64&#x27;) let _fileName = &#96;${Date.now()}.png&#96; let _localFile = _fileName try { fs.writeFileSync(_localFile, _dataBuffer) resolve(uploadImageFiles(_fileName, _localFile)) } catch (e) { console.log(e) } }) } &#x2F;** * [uploadImageFiles description] * 上传图片到腾讯云 * @param {String} key [文件名称] * @param {String} localFile [文件路径] * @return {object} [返回数据] *&#x2F; function uploadImageFiles(key, localFile) { return new Promise((resolve, reject) =&gt; { let params = { Bucket: tengxun_cos.Bucket, Region: tengxun_cos.Region, Key: key, FilePath: localFile } cos.sliceUploadFile(params, (err, data) =&gt; { if (err) { reject(deleteLocalImages(localFile)) } else { let imageSrc = &#x27;http:&#x2F;&#x2F;demo&#x2F;&#x27; + data.Key response.Data = imageSrc resolve(deleteLocalImages(localFile)) } }) }) } &#x2F;** * 删除本地图片 * @param {img address} localFile [description] * @return {[type]} [description] *&#x2F; function deleteLocalImages(localFile) { fs.unlinkSync(localFile) } module.exports = processingPicture </code></pre></div>",
+title: "新人关于node异步同步的问题",
+last_reply_at: "2018-04-23T03:34:36.472Z",
+good: false,
+top: false,
+reply_count: 6,
+visit_count: 46,
+create_at: "2018-04-23T03:00:05.247Z",
+author: {
+loginname: "enternull",
+avatar_url: "https://avatars.githubusercontent.com/u/7566065?v=3&s=120"
+}
+},
+{
+id: "5add5389464b1bfa6b425870",
+author_id: "579daf3285dba6b12ac5856e",
+tab: "share",
+content: "<div class="markdown-text"><p><a href="https://asmalltalk.com">小对话 https://asmalltalk.com</a> : 轻松认识其他工程师</p> <p>你也许有别人需要的技能，而你也想认识具有某方面特长的人。使用“小对话”你可以毫无压力地拓展你在 GitHub 的朋友圈半径。 “小对话” 根据你擅长的事物、以及希望得到帮助的事物，每天你推荐一位 GitHub 用户，如果你希望认识他，只需要直接回复邮件即可。</p> <p><img src="//dn-cnode.qbox.me/FiG4oVZrokzS2l6hqSZGg6wvK7pe" alt="mmexport1524451582320副本.png"></p> </div>",
+title: "小对话: 在 Github 上拓展你的朋友圈",
+last_reply_at: "2018-04-23T03:31:21.907Z",
+good: false,
+top: false,
+reply_count: 0,
+visit_count: 16,
+create_at: "2018-04-23T03:31:21.907Z",
+author: {
+loginname: "metrue",
+avatar_url: "https://avatars2.githubusercontent.com/u/1001246?v=4&s=120"
+}
+},
+{
+id: "5adcd8dfba60fcc66b7b875b",
+author_id: "503a6618f767cc9a5104139c",
+tab: "share",
+content: "<div class="markdown-text"><p><img src="https://dn-cnode.qbox.me/FhCV7Ayx7uZy6mh6EHBt3IzdBI2Z" alt="1"></p> <h2>有哪些动态执行脚本的场景？</h2> <p>在一些应用中，我们希望给用户提供插入自定义逻辑的能力，比如 Microsoft 的 Office 中的 <code>VBA</code>，比如一些游戏中的 <code>lua</code> 脚本，FireFox 的「油猴脚本」，能够让用户发在可控的范围和权限内发挥想象做一些好玩、有用的事情，扩展了能力，满足用户的个性化需求。</p> <p>大多数都是一些客户端程序，在一些在线的系统和产品中也常常也有类似的需求，事实上，在线的应用中也有不少提供了自定义脚本的能力，比如 Google Docs 中的 <code>Apps Script</code>，它可以让你使用 <code>JavaScript</code> 做一些非常有用的事情，比如运行代码来响应文档打开事件或单元格更改事件，为公式制作自定义电子表格函数等等。</p> <p>与运行在「用户电脑中」的客户端应用不同，用户的自定义脚本通常只能影响用户自已，而对于在线的应用或服务来讲，有一些情况就变得更为重要，比如「安全」，用户的「自定义脚本」必须严格受到限制和隔离，即不能影响到宿主程序，也不能影响到其它用户。</p> <p>而 Safeify 就是一个针对 Nodejs 应用，用于安全执行用户自定义的非信任脚本的模块。</p> <h2>怎样安全的执行动态脚本？</h2> <p>我们先看看通常都能如何在 JavaScript 程序中动态执行一段代码？比如大名顶顶的 <code>eval</code></p> <pre class="prettyprint language-js"><code>eval(&#x27;1+2&#x27;) </code></pre><p>上述代码没有问题顺利执行了，<code>eval</code> 是全局对象的一个函数属性，执行的代码拥有着和应用中其它正常代码一样的的权限，它能访问「执行上下文」中的局部变量，也能访问所有「全局变量」，在这个场景下，它是一个非常危险的函数。</p> <p>再来看看 <code>Functon</code>，通过 <code>Function</code> 构造器，我们可以动态的创建一个函数，然后执行它</p> <pre class="prettyprint language-js"><code>const sum = new Function(&#x27;m&#x27;, &#x27;n&#x27;, &#x27;return m + n&#x27;); console.log(sum(1, 2)); </code></pre><p>它也一样的顺利执行了，使用 Function 构造器生成的函数，并不会在创建它的上下文中创建闭包，一般在全局作用域中被创建。当运行函数的时候，只能访问自己的本地变量和全局变量，不能访问 Function 构造器被调用生成的上下文的作用域。如同一个站在地上、一个站在一张薄薄的纸上一样，在这个场景下，几乎没有高下之分。</p> <p><strong>结合 ES6 的新特性 <code>Proxy</code> 便能更安全一些</strong></p> <pre class="prettyprint language-js"><code>function evalute(code,sandbox) { sandbox = sandbox || Object.create(null); const fn = new Function(&#x27;sandbox&#x27;, &#96;with(sandbox){return (${code})}&#96;); const proxy = new Proxy(sandbox, { has(target, key) { &#x2F;&#x2F; 让动态执行的代码认为属性已存在 return true; } }); return fn(proxy); } evalute(&#x27;1+2&#x27;) &#x2F;&#x2F; 3 evalute(&#x27;console.log(1)&#x27;) &#x2F;&#x2F; Cannot read property &#x27;log&#x27; of undefined </code></pre><p>我们知道无论 <code>eval</code> 还是 <code>function</code>，执行时都会把作用域一层一层向上查找，如果找不到会一直到 <code>global</code>，那么利用 <code>Proxy</code> 的原理就是，让执行了代码在 <code>sandobx</code> 中找的到，以达到「防逃逸」的目的。</p> <blockquote> <p>在浏览器中，还可以利用 iframe，创建一个再多安全一些的隔离环境，本文着眼于 Node.js，在这里不做过多讨论。</p> </blockquote> <p><strong>在 Node.js 中呢，有没有其它选择</strong></p> <p>或许没看到这儿之前你就已经想到了 <code>VM</code>，它是 Node.js 默认就提供的一个内建模块，<code>VM</code> 模块提供了一系列 API 用于在 V8 虚拟机环境中编译和运行代码。JavaScript 代码可以被编译并立即运行，或编译、保存然后再运行。</p> <pre class="prettyprint language-js"><code>const vm = require(&#x27;vm&#x27;); const script = new vm.Script(&#x27;m + n&#x27;); const sandbox = { m: 1, n: 2 }; const context = new vm.createContext(sandbox); script.runInContext(context); </code></pre><p>执行上这的代码就能拿到结果 <code>3</code>，同时，通过 <code>vm.Script</code> 还能指定代码执行了「最大毫秒数」，超过指定的时长将终止执行并抛出一个异常</p> <pre class="prettyprint language-js"><code>try { const script = new vm.Script(&#x27;while(true){}&#x27;,{ timeout: 50 }); .... } catch (err){ &#x2F;&#x2F;打印超时的 log console.log(err.message); } </code></pre><p>上面的脚本执行将会失败，被检测到超时并抛出异常，然后被 <code>Try Cache</code> 捕获到并打出 log，但同时需要注意的是 <code>vm.Script</code> 的 <code>timeout</code> 选项「只针对同步代有效」，而不包括是异步调用的时间，比如</p> <pre class="prettyprint language-js"><code> const script = new vm.Script(&#x27;setTimeout(()=&gt;{},2000)&#x27;,{ timeout: 50 }); .... </code></pre><p>上述代码，并不是会在 50ms 后抛出异常，因为 50ms 上边的代码同步执行肯定完了，而 <code>setTimeout</code> 所用的时间并不算在内，也就是说 <code>vm</code> 模块没有办法对异步代码直接限制执行时间。我们也不能额外通过一个 <code>timer</code> 去检查超时，因为检查了执行中的 vm 也没有方法去中止掉。</p> <p>另外，在 Node.js 通过 <code>vm.runInContext</code> 看起来似乎隔离了代码执行环境，但实际上却很容易「逃逸」出去。</p> <pre class="prettyprint language-js"><code>const vm = require(&#x27;vm&#x27;); const sandbox = {}; const script = new vm.Script(&#x27;this.constructor.constructor(&quot;return process&quot;)().exit()&#x27;); const context = vm.createContext(sandbox); script.runInContext(context); </code></pre><p>执行上边的代码，宿主程序立即就会「退出」，<code>sandbox</code> 是在 <code>VM</code> 之外的环境创建的，需 <code>VM</code> 中的代码的 <code>this</code> 指向的也是 <code>sandbox</code>，那么</p> <pre class="prettyprint language-js"><code>&#x2F;&#x2F;this.constructor 就是外所的 Object 构建函数 const ObjConstructor = this.constructor; &#x2F;&#x2F;ObjConstructor 的 constructor 就是外包的 Function const Function = ObjConstructor.constructor; &#x2F;&#x2F;创建一个函数，并执行它，返回全局 process 全局对象 const process = (new Function(&#x27;return process&#x27;))(); &#x2F;&#x2F;退出当前进程 process.exit(); </code></pre><p>没有人愿意用户一段脚本就能让应用挂掉吧。除了退出进程序之外，实际上还能干更多的事情。</p> <p>有个简单的方法就能避免通过 <code>this.constructor</code> 拿到 <code>process</code>，如下：</p> <pre class="prettyprint language-js"><code>const vm = require(&#x27;vm&#x27;); &#x2F;&#x2F;创建一外无 proto 的空白对象作为 sandbox const sandbox = Object.create(null); const script = new vm.Script(&#x27;...&#x27;); const context = vm.createContext(sandbox); script.runInContext(context); </code></pre><p>但还是有风险的，由于 JavaScript 本身的动态的特点，各种黑魔法防不胜防。事实 Node.js 的官方文档中也提到「 不要把 <code>VM</code> 当做一个安全的沙箱，去执行任意非信任的代码」。</p> <p><strong>有哪些做了进一步工作的社区模块？</strong></p> <p>在社区中有一些开源的模块用于运行不信任代码，例如 <code>sandbox</code>、<code>vm2</code>、<code>jailed</code> 等。相比较而言 <code>vm2</code> 对各方面做了更多的安全工作，相对安全些。</p> <p>从 <code>vm2</code> 的官方 <code>READM</code> 中可以看到，它基于 Node.js 内建的 VM 模块，来建立基础的沙箱环境，然后同时使用上了文介绍过的 ES6 的 <code>Proxy</code> 技术来防止沙箱脚本逃逸。</p> <p>用同样的测试代码来试试 <code>vm2</code></p> <pre class="prettyprint language-js"><code>const { VM } = require(&#x27;vm2&#x27;); new VM().run(&#x27;this.constructor.constructor(&quot;return process&quot;)().exit()&#x27;); </code></pre><p>如上代码，并没有成功结束掉宿主程序，vm2 官方 REAME 中说「vm2 是一个沙盒，可以在 Node.js 中按全的执行不受信任的代码」。</p> <p>然而，事实上我们还是可以干一些「坏」事情，比如：</p> <pre class="prettyprint language-js"><code>const { VM } = require(&#x27;vm2&#x27;); const vm = new VM({ timeout: 1000, sandbox: {}}); vm.run(&#x27;new Promise(()=&gt;{})&#x27;); </code></pre><p>上边的代码将永远不会执行结束，如同 Node.js 内建模块一样 vm2 的 <code>timeout</code> 对异步操作是无效的。同时，<code>vm2</code> 也不能额外通过一个 <code>timer</code> 去检查超时，因为它也没有办法将执行中的 vm 终止掉。这会一点点耗费完服务器的资源，让你的应用挂掉。</p> <p>那么或许你会想，我们能不能在上边的 <code>sandbox</code> 中放一个假的 <code>Promise</code> 从而禁掉 Promise 呢？答案是能提供一个「假」的 <code>Promise</code>，但却没有办法完成禁掉 <code>Promise</code>，比如</p> <pre class="prettyprint language-js"><code>const { VM } = require(&#x27;vm2&#x27;); const vm = new VM({ timeout: 1000, sandbox: { Promise: function(){}} }); vm.run(&#x27;Promise = (async function(){})().constructor;new Promise(()=&gt;{});&#x27;); </code></pre><p>可以看到通过一行 <code>Promise = (async function(){})().constructor</code> 就可以轻松再次拿到 <code>Promise</code> 了。从另一个层面来看，况且或许有时我们还想让自定义脚本支持异步处理呢。</p> <h2>如何建立一个更安全一些的沙箱？</h2> <p>通过上文的探究，我们并没有找到一个完美的方案在 Node.js 建立安全的隔离的沙箱。其中 vm2 做了不少处理，相对来讲算是较安全的方案了，但问题也很明显，比如异步不能检查超时的问题、和宿主程序在相同进程的问题。</p> <p>没有进程隔离时，通过 VM 创建的 sanbox 大体是这样的</p> <p><img src="https://segmentfault.com/img/bV88VW?w=1232&amp;h=626" alt="2"></p> <p>那么，我们是不是可以尝试，将非受信代码，通过 vm2 这个模块隔离在一个独立的进程中执行呢？然后，执行超时时，直接将隔离的进程干掉，但这里我们需要考虑如下几个问题</p> <p><strong>通过进程池统调度管理沙箱进程</strong></p> <p>如果来一个执行任务，创建一个进程，用完销毁，仅处理进程的开销就已经稍大了，并且也不能不设限的开新进程和宿主应用抢资源，那么，需要建一个进程池，所有任务到来会创建一个 <code>Script</code> 实例，先进入一个 <code>pending</code> 队列，然后直接将 <code>script</code> 实例的 <code>defer</code> 对象返回，调用处就能 <code>await</code> 执行结果了，然后由 <code>sandbox master</code> 根据工程进程的空闲程序来调度执行，master 会将 <code>script</code> 的执行信息，包括重要的 <code>ScriptId</code>，发送给空闲的 worker，worker 执行完成后会将「结果 + script 信息」回传给 master，master 通过 ScriptId 识别是哪个脚本执行完毕了，就是结果进行 <code>resolve</code> 或 reject 处理。</p> <p>这样，通过「进程池」即能降低「进程来回创建和销毁的开销」，也能确保不过度抢占宿主资源，同时，在异步操作超时，还能将工程进程直接杀掉，同时，master 将发现一个工程进程挂掉，会立即创建替补进程。</p> <p><strong>处理的数据和结果，还有公开给沙箱的方法</strong></p> <p>进程间如何通讯，需要「动态代码」处理数据可以直接序列化后通过 IPC 发送给隔离 Sandbox 进程，执行结果一样经过序列化通过 IPC 传输。</p> <p>其中，如果想法公开一个方法给 sandbox，因为不在一个进程，并不能方便的将一个方案的引用传递给 sandbox。我们可以将宿主的方法，在传递给 sandbox worker 之类做一下处理，转换为一个「描述对象」，包括了允许 sandbox 调用的方法信息，然后将信息，如同其它数据一样发送给 worker 进程，worker 收到数据后，识出来所「方法描述对象」，然后在 worker 进程中的 sandbox 对象上建立代理方法，代理方法同样通过 IPC 和 master 通讯。</p> <p>** 最终，我们建立了一个大约这样的「沙箱环境」**</p> <p><img src="https://segmentfault.com/img/bV88VU?w=1642&amp;h=820" alt="3"></p> <p>如此这般处理起来是不是感觉很麻烦？但我们就有了一个更加安全一些的沙箱环境了，这些处理。笔者已经基于 TypeScript 编写，并封装为一个独立的模块 <code>Safeify</code>。</p> <p>GitHub: <a href="https://github.com/Houfeng/safeify">https://github.com/Houfeng/safeify</a> ，欢迎 Star &amp; Issues</p> <p>最后，简单介绍一下 Safeify 如何使用，通过如下命令安装</p> <pre class="prettyprint language-sh"><code>npm i safeify --save </code></pre><p>在应用中使用，还是比较简单的，如下代码（TypeScript 中类似）</p> <pre class="prettyprint language-js"><code>import { Safeify } from &#x27;.&#x2F;Safeify&#x27;; const safeVm = new Safeify({ timeout: 50, &#x2F;&#x2F;超时时间，默认 50ms asyncTimeout: 500, &#x2F;&#x2F;包含异步操作的超时时间，默认 500ms quantity: 4 &#x2F;&#x2F;沙箱进程数量，默认同 CPU 核数 }); const context = { a: 1, b: 2, add(a, b) { return a + b; } }; const rs = await safeVm.run(&#96;return add(a,b)&#96;, context); console.log(&#x27;result&#x27;,rs); </code></pre><p>关于安全的问题，没有最安全，只有更安全，Safeify 已在一个项目中使用，但自定义脚本的功能是仅针对内网用户，有不少动态执行代码的场景其实是可以避免的，绕不开或实在需要提供这个功能时，希望本文或 Safeify 能对大家有所帮助就行了。</p> <p>– end –</p> </div>",
+title: "为 Node.js 应用建立一个更安全的沙箱环境",
+last_reply_at: "2018-04-23T03:20:11.559Z",
+good: false,
+top: false,
+reply_count: 2,
+visit_count: 158,
+create_at: "2018-04-22T18:47:59.383Z",
+author: {
+loginname: "houfeng",
+avatar_url: "//gravatar.com/avatar/4ccd30a6ccc36203b826a50047183ea6?size=48"
+}
+},
+{
+id: "5aa89cc5ce4a27f8675270ae",
+author_id: "5aa89c9919b2e3db18959d6d",
+tab: "share",
+content: "<div class="markdown-text"><p>vue+nuxt+scss+node+express+MongoDB 实现的简单文章发布系统</p> <p>因为目前的spa单页项目对seo很不友好，如果你希望自己的网站在seo这块有较好的支持，可以尝试一下SSR技术，nuxt.js就是专门针对vue这一问题实现的技术，因此这一次我就尝试写了一个项目，主要实现的一个简单的文章的增删改查系统，主要为实现nuxt集合node实现ssr功能。</p> <p>新人可以学习下<a href="https://github.com/ITCNZ/mynuxt">https://github.com/ITCNZ/mynuxt</a> （如果觉得还不错请给个✨✨✨star星星吧✨✨✨） 也可以加 nuxt技术交流群：群号:320243648</p> <p><strong>该项目使用的到的技术比较多：</strong></p> <ul> <li>vue2.0</li> <li>nuxt1.0</li> <li>scss</li> <li>node9.8(必须&gt;=8.0)</li> <li>express</li> <li>MongoDB</li> </ul> <p><img src="https://img.golang123.com/upload/img/2018/03/78a6e693-0352-4c1f-985e-ee55c8c52baf.png" alt> 实现的功能有：</p> <blockquote> <p><strong>创建文章 修改文章 删除文章 查看文章</strong></p> </blockquote> <p>案例展示：</p> <p>创建/修改界面 <img src="//dn-cnode.qbox.me/FvyNBblMJMVxUdF6PMlKrxRYVK89" alt="nuxt4.png"></p> <p>文章列表界面： <img src="//dn-cnode.qbox.me/Ft6on0uVcigfXg3fuwf3Qaq098eR" alt="nuxt2.png"></p> <p>文章展示界面： <img src="https://img.golang123.com/upload/img/2018/03/48d51f58-ca10-4723-b6f1-a55ba76458ca.png" alt></p> </div>",
+title: "vue+nuxt+scss+node+express+MongoDB 实现的文章发布系统",
+last_reply_at: "2018-04-23T03:19:53.363Z",
+good: false,
+top: false,
+reply_count: 5,
+visit_count: 1114,
+create_at: "2018-03-14T03:53:41.612Z",
+author: {
+loginname: "ITCNZ",
+avatar_url: "https://avatars1.githubusercontent.com/u/17981388?v=4&s=120"
+}
+},
+{
+id: "5add4c91ba60fcc66b7b8766",
+author_id: "54519562d0c2f0fe2f533a16",
+tab: "share",
+content: "<div class="markdown-text"><p>最近看到cnode下面有推荐DO这个VPN，就去注册申请了一个，结果使用一段时间后，最近老是出问题，用着用着突然之间就访问不了，去DO后台一看，居然自动关机了，我打开后再次连上服务器，结果吓一跳，服务器原来的所有数据都没了，这里有人使用过DO的服务吗？这也太恐怖了吧，直接把数据全部给删除了。。</p> </div>",
+title: "关于DigitalOcean使用的过程中突然访问不了，然后去DO后台一看居然显示关机了，打开后，连上服务器居然服务器上所有的数据都没了。",
+last_reply_at: "2018-04-23T03:01:37.059Z",
+good: false,
+top: false,
+reply_count: 0,
+visit_count: 25,
+create_at: "2018-04-23T03:01:37.059Z",
+author: {
+loginname: "arden",
+avatar_url: "https://avatars3.githubusercontent.com/u/11365?v=4&s=120"
+}
+},
+{
+id: "5add4527a7d228c16b98717d",
+author_id: "58f32ea3e54976e847e0a0d0",
+tab: "share",
+content: "<div class="markdown-text"><p><a href="https://github.com/wxs77577/rest-admin">https://github.com/wxs77577/rest-admin</a></p> <p>仅需提供RESTful API接口即可实现一个后台管理界面，让你更加专注于后端代码。</p> </div>",
+title: "REST-ADMIN - 一个省心的Admin Dashboard",
+last_reply_at: "2018-04-23T02:29:59.503Z",
+good: false,
+top: false,
+reply_count: 0,
+visit_count: 56,
+create_at: "2018-04-23T02:29:59.503Z",
+author: {
+loginname: "wxs77577",
+avatar_url: "https://avatars0.githubusercontent.com/u/1990059?v=4&s=120"
+}
+},
+{
+id: "5ad9838e464b1bfa6b4257be",
+author_id: "541868cee97164b2570193f6",
+tab: "share",
+content: "<div class="markdown-text"><blockquote> <p>GitHub地址：<a href="https://github.com/hongmaoxiao/myblog/issues/13">JavaScript 类型判断知多少</a></p> <p>博客地址：<a href="https://fengxiaomao.com/#/article/38">JavaScript 类型判断知多少</a></p> <p>水平有限，欢迎批评指正</p> </blockquote> <h2>getType</h2> <blockquote> <p>Returns the native type of a value.</p> <p>Returns lowercased constructor name of value, “undefined” or “null” if value is undefined or null.</p> <pre class="prettyprint language-javascript"><code>const getType = v =&gt; v === undefined ? &#x27;undefined&#x27; : v === null ? &#x27;null&#x27; : v.constructor.name.toLowerCase(); </code></pre></blockquote> <p>返回值的元类型。</p> <p>返回值的 <code>constructor</code> 名的小写字母。<code>undefined</code> 或者 <code>null</code> 将会返回 <code>undefined</code> 或 <code>null</code>。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) cat getType.js const getType = v =&gt; v === undefined ? &#x27;undefined&#x27; : v === &#x27;null&#x27; ? &#x27;null&#x27; : v.constructor.name.toLowerCase(); console.log(getType(new Set([1, 2, 3]))); console.log(getType(new Array(1, 2, 3))); console.log(getType(Object.create({a: 1}))); ➜ code git:(master) node getType.js set array object </code></pre><p>字面意思很好理解，不多说。</p> <h2>is</h2> <blockquote> <p>Checks if the provided value is of the specified type.</p> <p>Ensure the value is not <code>undefined</code> or <code>null</code> using <code>Array.includes()</code>, and compare the <code>constructor</code> property on the value with <code>type</code> to check if the provided value is of the specified <code>type</code>.</p> <pre class="prettyprint language-javascript"><code>const is = (type, val) =&gt; ![, null].includes(val) &amp;&amp; val.constructor === type; </code></pre></blockquote> <p>检测提供的 <code>val</code> 是否属于指定的类型 <code>type</code>。</p> <p>运用 <code>Array.includes()</code> 确保 <code>undefined</code> 和 <code>null</code> 被排除在外，并且比较 <code>val</code> 的 <code>constructor</code> 属性和指定的类型 <code>type</code> 是否相等。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat is.js const is = (type, val) =&gt; ![, null].includes(val) &amp;&amp; val.constructor === type; console.log(is(Array, [1])); console.log(is(ArrayBuffer, new ArrayBuffer())); console.log(is(Map, new Map())); console.log(is(RegExp, &#x2F;.&#x2F;g)); console.log(is(Set, new Set())); console.log(is(WeakMap, new WeakMap())); console.log(is(WeakSet, new WeakSet())); console.log(is(String, &#x27;&#x27;)); console.log(is(String, new String(&#x27;&#x27;))); console.log(is(Number, 1)); console.log(is(Number, new Number(1))); console.log(is(Boolean, true)); console.log(is(Boolean, new Boolean(true))); ➜ code git:(master) ✗ node is.js true true true true true true true true true true true true true </code></pre><p><code>MDN</code> 的 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor">constructor</a> ，你值得拥有。</p> <h2>isArrayLike</h2> <blockquote> <p>Checks if the provided argument is array-like (i.e. is iterable).</p> <p>Use the spread operator (<code>...</code>) to check if the provided argument is iterable inside a <code>try... catch</code> block and the comma operator (<code>,</code>) to return the appropriate value.</p> <pre class="prettyprint language-javascript"><code>const isArrayLike = val =&gt; { try { return [...val], true; } catch (e) { return false; } }; </code></pre></blockquote> <p>检测变量是否是<code>类数组</code>（比如是可迭代对象）。</p> <p>结合 <code>try... catch</code> 使用 <code>…</code> 扩展运算表达式对提供的变量进行是否可迭代的检测，同时使用 <code>,</code> 运算表达式返回适当的结果。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isArrayLike.js const isArrayLike = val =&gt; { try { return [...val], true; } catch (e) { return false; } }; console.log(isArrayLike(&#x27;abc&#x27;)); console.log(isArrayLike(null)); ➜ code git:(master) ✗ node isArrayLike.js true false </code></pre><p>在这里类数组判断的依据是<strong>变量可迭代</strong>，所以对应的检测方法就是可以用扩展运算表达式 <code>…</code> 进行展开，如果能正确展开，返回 <code>true</code> ，否则返回 <code>false</code> 。</p> <p><code>return [...val], true</code> ，这里如果能展开，会能执行到 <code>,</code> 表达式，返回 <code>true</code> ，否则将进入 <code>catch</code> 流程而返回 <code>false</code> 。</p> <p><code>lodash</code> 对于 <a href="https://github.com/lodash/lodash/blob/7cc1328bf19c004ee8859d9deb6e9884f12a8fd5/isArrayLike.js"><code>isArrayLike</code></a> （类数组）的判断依据是<strong>变量不是 <code>undefined</code> 或者 <code>null</code> ，也不是 <code>function</code> ，同时含有 <code>length</code> 属性且该属性值是一个整数并且大于等于 <code>0</code> 且小于等于 <code>Number.MAX_SAFE_INTEGER</code>（9007199254740991）</strong>。</p> <pre class="prettyprint language-javascript"><code>const MAX_SAFE_INTEGER = 9007199254740991 function isLength(value) { return typeof value == &#x27;number&#x27; &amp;&amp; value &gt; -1 &amp;&amp; value % 1 == 0 &amp;&amp; value &lt;= MAX_SAFE_INTEGER } function isArrayLike(value) { return value != null &amp;&amp; typeof value != &#x27;function&#x27; &amp;&amp; isLength(value.length) } </code></pre><p>代码和逻辑一一对应，不细讲。不过换我写的话，我会把 <code>==</code> 都写成 <code>===</code> 。即使 <code>value != null</code> 写成 <code>value !== null &amp;&amp; value !== undefined</code> 会变得很长。</p> <h2>isBoolean</h2> <blockquote> <p>Checks if the given argument is a native boolean element.</p> <p>Use <code>typeof</code> to check if a value is classified as a boolean primitive.</p> <pre class="prettyprint language-javascript"><code>const isBoolean = val =&gt; typeof val === &#x27;boolean&#x27;; </code></pre></blockquote> <p>检测提供的变量是否是布尔类型。</p> <p>用 <code>typeof</code> 来检测 <code>val</code> 是否应该归为布尔原型。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isBoolean.js const isBoolean = val =&gt; typeof val === &#x27;boolean&#x27;; console.log(isBoolean(null)); console.log(isBoolean(false)); ➜ code git:(master) ✗ node isBoolean.js false true </code></pre><p>布尔型直接用 <code>typeof</code> 就能判断。</p> <h2>isEmpty</h2> <blockquote> <p>Returns true if the a value is an empty object, collection, map or set, has no enumerable properties or is any type that is not considered a collection.</p> <p>Check if the provided value is <code>null</code> or if its <code>length</code> is equal to <code>0</code>.</p> <pre class="prettyprint language-javascript"><code>const isEmpty = val =&gt; val == null || !(Object.keys(val) || val).length; </code></pre></blockquote> <p>如果 <code>value</code> 是一个空的 <code>object</code> 、<code>collection</code> 、<code>map</code> 或者 <code>set</code> ，或者没有任何可枚举的属性以及任何没有被当做 <code>collection</code> 的类型都返回 <code>true</code> 。</p> <p>检测提供的变量是否为 <code>null</code> 或者变量的 <code>length</code> 属性是否等于0。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isEmpty.js const isEmpty = val =&gt; val == null || !(Object.keys(val) || val).length; console.log(isEmpty(new Map())); console.log(isEmpty(new Set())); console.log(isEmpty([])); console.log(isEmpty({})); console.log(isEmpty(&#x27;&#x27;)); console.log(isEmpty([1, 2])); console.log(isEmpty({ a: 1, b: 2 })); console.log(isEmpty(&#x27;text&#x27;)); console.log(isEmpty(123)); console.log(isEmpty(true)); ➜ code git:(master) ✗ node isEmpty.js true true true true true false false false true true </code></pre><p>这里注意的是 <code>val == null</code> 用的是 <code>==</code> 而不是 <code>===</code> ，也就是说 <code>undefined</code> 也会返回 <code>true</code> 。</p> <h2>isFunction</h2> <blockquote> <p>Checks if the given argument is a function.</p> <p>Use <code>typeof</code> to check if a value is classified as a function primitive.</p> <pre class="prettyprint language-javascript"><code>const isFunction = val =&gt; typeof val === &#x27;function&#x27;; </code></pre></blockquote> <p>检测提供的变量的类型是否是 <code>function</code> 。</p> <p>使用 <code>typeof</code> 进行判断给定的变量是否是 <code>function</code> 原型。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isFunction.js const isFunction = val =&gt; typeof val === &#x27;function&#x27;; console.log(isFunction(&#x27;x&#x27;)); console.log(isFunction(x =&gt; x)); ➜ code git:(master) ✗ node isFunction.js false true </code></pre><p>类型为 <code>function</code> 的判断比较简单，只需要用 <code>typeof</code> 就可以区分。</p> <h2>isNil</h2> <blockquote> <p>Returns <code>true</code> if the specified value is <code>null</code> or <code>undefined</code>, <code>false</code> otherwise.</p> <p>Use the strict equality operator to check if the value and of <code>val</code> are equal to <code>null</code> or <code>undefined</code>.</p> <pre class="prettyprint language-javascript"><code>const isNil = val =&gt; val === undefined || val === null; </code></pre></blockquote> <p>指定的变量是 <code>null</code> 或者 <code>undefined</code> ，返回 <code>true</code> ，否则返回 <code>false</code> 。</p> <p>使用严格相等运算符去对变量进行是否等于 <code>null</code> 或者 <code>undefined</code> 的检测。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isNil.js const isNil = val =&gt; val === undefined || val === null; console.log(isNil(null)); console.log(isNil(undefined)); ➜ code git:(master) ✗ node isNil.js true true </code></pre><p>这还真没啥好说的了，我觉得名字起得非常好，<code>go</code> 也用 <code>nil</code>。</p> <h2>isNull</h2> <blockquote> <p>Returns <code>true</code> if the specified value is <code>null</code>, <code>false</code> otherwise.</p> <p>Use the strict equality operator to check if the value and of <code>val</code> are equal to <code>null</code>.</p> <pre class="prettyprint language-javascript"><code>const isNull = val =&gt; val === null; </code></pre></blockquote> <p>如果变量是 <code>null</code> ，返回 <code>true</code> ，否则返回 <code>false</code> 。</p> <p>使用严格相等运算符判断变量是否为 <code>null</code> 。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isNull.js const isNull = val =&gt; val === null; console.log(isNull(null)); ➜ code git:(master) ✗ node isNull.js true </code></pre><h2>isUndefined</h2> <blockquote> <p>Returns <code>true</code> if the specified value is <code>undefined</code>, <code>false</code> otherwise.</p> <p>Use the strict equality operator to check if the value and of <code>val</code> are equal to <code>undefined</code>.</p> <pre class="prettyprint language-javascript"><code>const isUndefined = val =&gt; val === undefined; </code></pre></blockquote> <p>如果变量是 <code>undefined</code> ，返回 <code>true</code> ，否则返回 <code>false</code> 。</p> <p>使用严格相等运算符判断变量是否为 <code>undefined</code> 。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isUndefined.js const isUndefined = val =&gt; val === undefined; console.log(isUndefined(undefined)); ➜ code git:(master) ✗ node isUndefined.js true </code></pre><h2>isNumber</h2> <blockquote> <p>Checks if the given argument is a number.</p> <p>Use <code>typeof</code> to check if a value is classified as a number primitive.</p> <pre class="prettyprint language-javascript"><code>const isNumber = val =&gt; typeof val === &#x27;number&#x27;; </code></pre></blockquote> <p>检测提供的变量是否为 <code>number</code> 型。</p> <p>使用 <code>typeof</code> 检测给定变量是否是 <code>number</code> 原型。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isNumber.js const isNumber = val =&gt; typeof val === &#x27;number&#x27;; console.log(isNumber(&#x27;1&#x27;)); console.log(isNumber(1)); console.log(isNumber(NaN)); ➜ code git:(master) ✗ node isNumber.js false true true </code></pre><p>这里注意的是 <code>NaN</code> 也是一个 <code>number</code> 类型。</p> <h2>isObject</h2> <blockquote> <p>Returns a boolean determining if the passed value is an object or not.</p> <p>Uses the <code>Object</code> constructor to create an object wrapper for the given value. If the value is <code>null</code> or <code>undefined</code>, create and return an empty object. Οtherwise, return an object of a type that corresponds to the given value.</p> <pre class="prettyprint language-javascript"><code>const isObject = obj =&gt; obj === Object(obj); </code></pre></blockquote> <p>检测给定的变量是否为 <code>object</code> 类型。</p> <p>使用 <code>Object</code> 的 <code>constructor</code> 对给定的变量构造一个对象。如果变量是 <code>null</code> 或者 <code>undefined</code> ，将会生成一个空对象。否则生成一个类型和变量本身相等的对象。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isObject.js const isObject = obj =&gt; obj === Object(obj); console.log(isObject([1, 2, 3, 4])); console.log(isObject([])); console.log(isObject([&#x27;Hello!&#x27;])); console.log(isObject({ a: 1 })); console.log(isObject({})); console.log(isObject(x =&gt; x)); console.log(isObject(true)); ➜ code git:(master) ✗ node isObject.js true true true true true true false </code></pre><p>数组、对象、方法都会返回 <code>true</code> 。这里跟 <code>lodash</code> 的 <a href="https://github.com/lodash/lodash/blob/6cb3460fcefe66cb96e55b82c6febd2153c992cc/isObject.js"><code>isObject</code></a> 有点不太一样：</p> <pre class="prettyprint language-javascript"><code>function isObject(value) { const type = typeof value return value != null &amp;&amp; (type == &#x27;object&#x27; || type == &#x27;function&#x27;) } </code></pre><p>对于 <code>null</code> 来说 <code>typeof value === 'object'</code> ，所以这是必须要排除掉的， 但是直接用 <code>value != null</code> 进行判断比 <code>typeof</code> 运行的效率高。</p> <p>对于数组和对象来说，<code>typeof</code> 都会返回 <code>object</code> 。所以 <code>type == 'object'</code> 就能包含两者。</p> <p>另外 <code>typeof</code> 值为 <code>function</code> 也满足，所以加上一个 <code>||</code> 即可。</p> <p>其实本质上用构造函数和 <code>lodash</code> 的判断方法一样，但是 <code>lodash</code> 没有涉及原型链的操作。所以效率高，虽然写法上比较费事。</p> <h2>isObjectLike</h2> <blockquote> <p>Checks if a value is object-like.</p> <p>Check if the provided value is not <code>null</code> and its <code>typeof</code> is equal to <code>'object'</code>.</p> <pre class="prettyprint language-javascript"><code>const isObjectLike = val =&gt; val !== null &amp;&amp; typeof val === &#x27;object&#x27;; </code></pre></blockquote> <p>检测一个变量是否是类对象。</p> <p>只需要判断给定变量不是 <code>null</code> 且 <code>typeof</code> 结果与 <code>object</code> 相等即可。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isObjectLike.js const isObjectLike = val =&gt; val !== null &amp;&amp; typeof val === &#x27;object&#x27;; console.log(isObjectLike({})); console.log(isObjectLike([1, 2, 3])); console.log(isObjectLike(x =&gt; x)); console.log(isObjectLike(null)); ➜ code git:(master) ✗ node isObjectLike.js true true false false </code></pre><p>这里判断方法和 <code>lodash</code> 的 <a href="https://github.com/lodash/lodash/blob/f03b3edca4faecf07e45a5c495eb510ff73b78dc/isObjectLike.js"><code>isObjectLike</code></a> 一样。</p> <h2>isPlainObject</h2> <blockquote> <p>Checks if the provided value is an object created by the Object constructor.</p> <p>Check if the provided value is truthy, use <code>typeof</code> to check if it is an object and <code>Object.constructor</code> to make sure the constructor is equal to <code>Object</code>.</p> <pre class="prettyprint language-javascript"><code>const isPlainObject = val =&gt; !!val &amp;&amp; typeof val === &#x27;object&#x27; &amp;&amp; val.constructor === Object; </code></pre></blockquote> <p>检测提供的变量是否是一个由对象的 <code>constructor</code> 创建的对象。</p> <p>先判断变量的布尔运算是否为 <code>true</code> ，然后使用 <code>typeof</code> 判断变量是否为 <code>object</code> ，最后判断变量的 <code>constructor</code> 是否是 <code>object</code> 。这三个步骤的运算都为 <code>true</code> 才返回 <code>true</code> 。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isPlainObject.js const isPlainObject = val =&gt; !!val &amp;&amp; typeof val === &#x27;object&#x27; &amp;&amp; val.constructor === Object; console.log(isPlainObject({ a: 1 })); console.log(isPlainObject(new Map())); console.log(isPlainObject(Object.create(null))); ➜ code git:(master) ✗ node isPlainObject.js true false false </code></pre><p>代码正如注解一样一一对应，但意外的是它和 <code>lodash</code> 的 <a href="https://github.com/lodash/lodash/blob/b36f21cbaff7c885223b44267c70e6711b754af6/isPlainObject.js"><code>isPlainObject</code></a> 是不一样的，唯一差别是 <code>lodash</code> 把 <code>Object.create(null)</code> 创建的对象也归为 <code>plainObject</code> 。但对应上各自的解释都是没错的。</p> <p><code>lodash</code> 的 <code>isPlainObject</code> 代码实现如下：</p> <pre class="prettyprint language-javascript"><code>const objectProto = Object.prototype const hasOwnProperty = objectProto.hasOwnProperty const toString = objectProto.toString const symToStringTag = typeof Symbol != &#x27;undefined&#x27; ? Symbol.toStringTag : undefined &#x2F;&#x2F; baseGetTag function baseGetTag(value) { if (value == null) { &#x2F;&#x2F; undefined 和 null 直接用这种判断方式比较toString调用要快 return value === undefined ? &#x27;[object Undefined]&#x27; : &#x27;[object Null]&#x27; } &#x2F;&#x2F; 排除 Symbol 时直接使用 toString 调用即可 if (!(symToStringTag &amp;&amp; symToStringTag in Object(value))) { return toString.call(value) } const isOwn = hasOwnProperty.call(value, symToStringTag) const tag = value[symToStringTag] let unmasked = false try { &#x2F;&#x2F; 我猜这里是尝试把它的自有属性赋值为 undefined 是为了不干扰下面 toString 的调用 value[symToStringTag] = undefined unmasked = true } catch (e) {} const result = toString.call(value) &#x2F;&#x2F; 如果try成功，需要还原 if (unmasked) { if (isOwn) { &#x2F;&#x2F; 如果是自有属性，需要重新把值给回去 value[symToStringTag] = tag } else { &#x2F;&#x2F; 如果不是自有属性，需要删除掉 delete value[symToStringTag] } } return result } &#x2F;&#x2F; isObjectLike function isObjectLike(value) { return typeof value == &#x27;object&#x27; &amp;&amp; value !== null } &#x2F;&#x2F; isPlainObject function isPlainObject(value) { if (!isObjectLike(value) || baseGetTag(value) != &#x27;[object Object]&#x27;) { return false } if (Object.getPrototypeOf(value) === null) { &#x2F;&#x2F; 这里的 value 就是通过 Object.create(null) 来创建的 return true } let proto = value while (Object.getPrototypeOf(proto) !== null) { &#x2F;&#x2F; 我猜是递归获取继承的 prototype proto = Object.getPrototypeOf(proto) } return Object.getPrototypeOf(value) === proto } </code></pre><p><code>lodash</code> 的代码我认为应该加注释的都加上了，不清楚的可以 <code>MDN</code> 自查：</p> <ol> <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toStringTag"><code>Symbol.toStringTag</code></a></li> <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf"><code>Object.getPrototypeOf()</code></a></li> </ol> <h2>isPrimitive</h2> <blockquote> <p>Returns a boolean determining if the passed value is primitive or not.</p> <p>Use <code>Array.includes()</code> on an array of type strings which are not primitive, supplying the type using <code>typeof</code>. Since <code>typeof null</code> evaluates to <code>'object'</code>, it needs to be directly compared.</p> <pre class="prettyprint language-javascript"><code>const isPrimitive = val =&gt; ![&#x27;object&#x27;, &#x27;function&#x27;].includes(typeof val) || val === null; </code></pre></blockquote> <p>检测变量是否是基本数据类型。</p> <p>使用 <code>Array.includes()</code> 结合 <code>typeof</code> 把不是基本数据类型的排除掉。由于 <code>typeof null</code> 返回的是 <code>object</code> ，需要直接对它进行单独判断。</p> <p><code>MDN</code> 上关于 <a href="https://developer.mozilla.org/en-US/docs/Glossary/Primitive"><code>primitive</code></a> 的解释如下：</p> <blockquote> <p>A <strong>primitive</strong> (primitive value, primitive data type) is data that is not an <a href="https://developer.mozilla.org/en-US/docs/Glossary/object">object</a> and has no <a href="https://developer.mozilla.org/en-US/docs/Glossary/method">methods</a>. In <a href="https://developer.mozilla.org/en-US/docs/Glossary/JavaScript">JavaScript</a>, there are 6 primitive data types: <a href="https://developer.mozilla.org/en-US/docs/Glossary/string">string</a>, <a href="https://developer.mozilla.org/en-US/docs/Glossary/number">number</a>, <a href="https://developer.mozilla.org/en-US/docs/Glossary/boolean">boolean</a>, <a href="https://developer.mozilla.org/en-US/docs/Glossary/null">null</a>, <a href="https://developer.mozilla.org/en-US/docs/Glossary/undefined">undefined</a>, <a href="https://developer.mozilla.org/en-US/docs/Glossary/symbol">symbol</a> (new in <a href="https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript">ECMAScript</a> 2015).</p> </blockquote> <p><code>primitive</code> （primitive 数值, primitive 数据类型） 是指不是一个 <code>object</code> 并且不包含方法的数据。在 <code>JavaScript</code> 中，属于 <code>primitive</code> 的是 <code>string</code> 、<code>number</code> 、<code>boolean</code> 、<code>null</code> 、<code>undefined</code> 和 <code>symbol</code> （ECMAScript2015新增）。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isPrimitive.js const isPrimitive = val =&gt; ![&#x27;object&#x27;, &#x27;function&#x27;].includes(typeof val) || val === null; console.log(isPrimitive(null)); console.log(isPrimitive(50)); console.log(isPrimitive(&#x27;Hello!&#x27;)); console.log(isPrimitive(false)); console.log(isPrimitive(Symbol())); console.log(isPrimitive([])); ➜ code git:(master) ✗ node isPrimitive.js true true true true true false </code></pre><p><code>!['object', 'function'].includes(typeof val)</code> 这里就是把 <code>typeof</code> 运算结果为 <code>object</code> 或者 <code>function</code> 都排除掉，由于 <code>null</code> 的 <code>typeof</code> 是 <code>object</code> ，而 <code>includes</code> 会把它也排除了，需要用 <code>||</code> 把它加回来。</p> <p>如果你还有印象的话， <code>isObject</code> 正好是 <code>isPrimitive</code> 的对立面，所以其实我觉得 <code>!isObject</code> 也行。</p> <p><code>lodash</code> 暂时没有提供 <code>isPrimitive</code> 的计划，但在 <code>issues</code> <a href="https://github.com/lodash/lodash/issues/1406"><code>1406</code></a> 中提到了可以用 <code>!_.isObject(value)</code> 或者 <code>_.negate(_.isObject)</code> 代替。</p> <h2>isPromiseLike</h2> <blockquote> <p>Returns <code>true</code> if an object looks like a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"><code>Promise</code></a>, <code>false</code> otherwise.</p> <p>Check if the object is not <code>null</code>, its <code>typeof</code> matches either <code>object</code> or <code>function</code> and if it has a <code>.then</code> property, which is also a <code>function</code>.</p> <pre class="prettyprint language-javascript"><code>const isPromiseLike = obj =&gt; obj !== null &amp;&amp; (typeof obj === &#x27;object&#x27; || typeof obj === &#x27;function&#x27;) &amp;&amp; typeof obj.then === &#x27;function&#x27;; </code></pre></blockquote> <p>如果一个对象看起来像 <code>Promise</code> ，返回 <code>true</code> ，否则返回 <code>false</code> 。</p> <p>首先该对象不能为 <code>null</code> ，其次它的 <code>typeof</code> 是 <code>object</code> 或者 <code>function</code> 之一，最后它有一个 <code>.then</code> 属性且该属性是一个 <code>function</code> 。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isPromiseLike.js const isPromiseLike = obj =&gt; obj !== null &amp;&amp; (typeof obj === &#x27;object&#x27; || typeof obj === &#x27;function&#x27;) &amp;&amp; typeof obj.then === &#x27;function&#x27;; console.log(isPromiseLike({ then: function() { return &#x27;&#x27;; } })); console.log(isPromiseLike(null)); console.log(isPromiseLike({})); ➜ code git:(master) ✗ node isPromiseLike.js true false false </code></pre><h2>isString</h2> <blockquote> <p>Checks if the given argument is a string.</p> <p>Use <code>typeof</code> to check if a value is classified as a string primitive.</p> <pre class="prettyprint language-javascript"><code>const isString = val =&gt; typeof val === &#x27;string&#x27;; </code></pre></blockquote> <p>检测一个变量是否是 <code>string</code> 类型。</p> <p>用 <code>typeof</code> 进行检测即可。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isString.js const isString = val =&gt; typeof val === &#x27;string&#x27;; console.log(isString(&#x27;10&#x27;)); console.log(isString(10)); console.log(isString(true)); ➜ code git:(master) ✗ node isString.js true false false </code></pre><h2>isSymbol</h2> <blockquote> <p>Checks if the given argument is a symbol.</p> <p>Use <code>typeof</code> to check if a value is classified as a symbol primitive.</p> <pre class="prettyprint language-javascript"><code>const isSymbol = val =&gt; typeof val === &#x27;symbol&#x27;; </code></pre></blockquote> <p>检测一个变量是否是 <code>symbol</code> 类型。</p> <p>用 <code>typeof</code> 进行检测即可。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isSymbol.js const isSymbol = val =&gt; typeof val === &#x27;symbol&#x27;; console.log(isSymbol(&#x27;x&#x27;)); console.log(isSymbol(Symbol(&#x27;x&#x27;))); ➜ code git:(master) ✗ node isSymbol.js false true </code></pre><h2>isValidJSON</h2> <blockquote> <p>Checks if the provided argument is a valid JSON.</p> <p>Use <code>JSON.parse()</code> and a <code>try... catch</code> block to check if the provided argument is a valid JSON.</p> <pre class="prettyprint language-javascript"><code>const isValidJSON = obj =&gt; { try { JSON.parse(obj); return true; } catch (e) { return false; } }; </code></pre></blockquote> <p>检测一个变量是否是合法的 <code>JSON</code> 。</p> <p>使用 <code>JSON.parse()</code> 结合 <code>try… catch</code> 对变量进行判断，如果能正确解析返回 <code>true</code> ，否则返回 <code>false</code> 。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isValidJSON.js const isValidJSON = obj =&gt; { try { JSON.parse(obj); return true; } catch (e) { return false; } }; console.log(isValidJSON(&#x27;{&quot;name&quot;:&quot;Adam&quot;,&quot;age&quot;:20}&#x27;)); console.log(isValidJSON(&#x27;{&quot;name&quot;:&quot;Adam&quot;,age:&quot;20&quot;}&#x27;)); console.log(isValidJSON(null)); ➜ code git:(master) ✗ node isValidJSON.js true false true </code></pre><h2>isStrictNaN</h2> <blockquote> <p>const isStrictNaN = val =&gt; val !== val;</p> </blockquote> <p>这个方法是我自己加的，有时候需要判断是不是 <code>NaN</code> ，<code>NaN</code> 有一个独特的特性是它不等于它本身。这个方法和 <code>isNaN</code> 有什么不同，可以看 <code>NDN</code> 的 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN"><code>isNaN</code></a>。</p> <pre class="prettyprint language-javascript"><code>➜ code git:(master) ✗ cat isStrictNaN.js const isStrictNaN = val =&gt; val !== val; console.log(isStrictNaN(NaN)); console.log(isStrictNaN(&#x27;a&#x27;)); console.log(isStrictNaN(null)); console.log(isStrictNaN(undefined)); console.log(isStrictNaN(true)); ➜ code git:(master) ✗ node isStrictNaN.js true false false false false </code></pre><h2>终极大法</h2> <p>一般来说，大家如果不用 <code>underscore</code> 或者 <code>lodash</code> 的话，通常都是用以下方法进行判断的：</p> <pre class="prettyprint language-javascript"><code>const isType = val =&gt; Object.prototype.toString.call(val).slice(8, -1).toLowerCase(); </code></pre><p>或者是正则：</p> <pre class="prettyprint language-javascript"><code>const isType = val =&gt; Object.prototype.toString.call(val).match(&#x2F;\s([a-zA-Z]+)&#x2F;)[1].toLowerCase(); </code></pre><p>这块就不用给例子了，有心人会自己去试。</p> <p>一般我倾向于使用第一种，因为用正则一是比较难读懂，二是速度比较慢，实在是不用正则不能解决问题的时候才会用。</p> <p>以上的方法是终极大法，但速度会比较慢，所以对于能直接用 <code>typeof</code> 进行判断的类型，通常直接用 <code>typeof</code> 即可。不考虑运行效率的话，以上方法自然是一劳永逸。</p> </div>",
+title: "不吹不黑，来聊聊驳驳驳《我不是很懂 Node.js 社区的 DRY 文化》背后蛋疼的 JavaScript 类型判断",
+last_reply_at: "2018-04-23T02:29:16.023Z",
+good: false,
+top: false,
+reply_count: 7,
+visit_count: 514,
+create_at: "2018-04-20T06:07:10.491Z",
+author: {
+loginname: "hongmaoxiao",
+avatar_url: "https://avatars0.githubusercontent.com/u/3943494?v=4&s=120"
+}
+},
+{
+id: "5adc51b1a7d228c16b98715d",
+author_id: "54054f7c0256839f714716ea",
+tab: "share",
+content: "<div class="markdown-text"><h2>2018-04-24, Version 10.0.0 (Current), <a href="/user/jasnell">@jasnell</a></h2> <h3>Notable Changes</h3> <ul> <li> <p>Assert</p> <ul> <li>Calling <code>assert.fail()</code> with more than one argument is deprecated. [<a href="https://github.com/nodejs/node/commit/70dcacd710"><code>70dcacd710</code></a>]</li> <li>Calling <code>assert.ok()</code> with no arguments will now throw. [<a href="https://github.com/nodejs/node/commit/3cd7977a42"><code>3cd7977a42</code></a>]</li> <li>Calling <code>assert.ifError()</code> will now throw with any argument other than <code>undefined</code> or <code>null</code>. Previously the method would throw with any truthy value. [<a href="https://github.com/nodejs/node/commit/e65a6e81ef"><code>e65a6e81ef</code></a>]</li> <li>The <code>assert.rejects()</code> and <code>assert.doesNotReject()</code> methods have been added for working with async functions. [<a href="https://github.com/nodejs/node/commit/599337f43e"><code>599337f43e</code></a>]</li> </ul> </li> <li> <p>Async_hooks</p> <ul> <li>Older experimental async_hooks APIs have been removed. [<a href="https://github.com/nodejs/node/commit/1cc6b993b9"><code>1cc6b993b9</code></a>]</li> </ul> </li> <li> <p>Buffer</p> <ul> <li>Uses of <code>new Buffer()</code> and <code>Buffer()</code> outside of the <code>node_modules</code> directory will now emit a runtime deprecation warning. [<a href="https://github.com/nodejs/node/commit/9d4ab90117"><code>9d4ab90117</code></a>]</li> <li><code>Buffer.isEncoding()</code> now returns <code>undefined</code> for falsy values, including an empty string. [<a href="https://github.com/nodejs/node/commit/452eed956e"><code>452eed956e</code></a>]</li> <li><code>Buffer.fill()</code> will throw if an attempt is made to fill with an empty <code>Buffer</code>. [<a href="https://github.com/nodejs/node/commit/1e802539b2"><code>1e802539b2</code></a>]</li> </ul> </li> <li> <p>Child Process</p> <ul> <li>Undefined properties of env are ignored. [<a href="https://github.com/nodejs/node/commit/38ee25e2e2"><code>38ee25e2e2</code></a>], [<a href="https://github.com/nodejs/node/commit/85739b6c5b"><code>85739b6c5b</code></a>]</li> </ul> </li> <li> <p>Console</p> <ul> <li>The <code>console.table()</code> method has been added. [<a href="https://github.com/nodejs/node/commit/97ace04492"><code>97ace04492</code></a>]</li> </ul> </li> <li> <p>Crypto</p> <ul> <li>The <code>crypto.createCipher()</code> and <code>crypto.createDecipher()</code> methods have been deprecated. Please use <code>crypto.createCipheriv()</code> and <code>crypto.createDecipheriv()</code> instead. [<a href="https://github.com/nodejs/node/commit/81f88e30dd"><code>81f88e30dd</code></a>]</li> <li>The <code>decipher.finaltol()</code> method has been deprecated. [<a href="https://github.com/nodejs/node/commit/19f3927d92"><code>19f3927d92</code></a>]</li> <li>The <code>crypto.DEFAULT_ENCODING</code> property has been deprecated. [<a href="https://github.com/nodejs/node/commit/6035beea93"><code>6035beea93</code></a>]</li> <li>The <code>ECDH.convertKey()</code> method has been added. [<a href="https://github.com/nodejs/node/commit/f2e02883e7"><code>f2e02883e7</code></a>]</li> <li>The <code>crypto.fips</code> property has been deprecated. [<a href="https://github.com/nodejs/node/commit/6e7992e8b8"><code>6e7992e8b8</code></a>]</li> </ul> </li> <li> <p>Dependencies</p> <ul> <li>V8 has been updated to 6.6. [<a href="https://github.com/nodejs/node/commit/9daebb48d6"><code>9daebb48d6</code></a>]</li> <li>OpenSSL has been updated to 1.1.0h. [<a href="https://github.com/nodejs/node/commit/66cb29e646"><code>66cb29e646</code></a>]</li> </ul> </li> <li> <p>EventEmitter</p> <ul> <li>The <code>EventEmitter.prototype.off()</code> method has been added as an alias for <code>EventEmitter.prototype.removeListener()</code>. [<a href="https://github.com/nodejs/node/commit/3bb6f07d52"><code>3bb6f07d52</code></a>]</li> </ul> </li> <li> <p>File System</p> <ul> <li>The <code>fs.promises</code> API provides experimental promisified versions of the <code>fs</code> functions. [<a href="https://github.com/nodejs/node/commit/329fc78e49"><code>329fc78e49</code></a>]</li> <li>Invalid path errors are now thrown synchronously. [<a href="https://github.com/nodejs/node/commit/d8f73385e2"><code>d8f73385e2</code></a>]</li> <li>The <code>fs.readFile()</code> method now partitions reads to avoid thread pool exhaustion. [<a href="https://github.com/nodejs/node/commit/67a4ce1c6e"><code>67a4ce1c6e</code></a>]</li> </ul> </li> <li> <p>HTTP</p> <ul> <li>Processing of HTTP Status codes <code>100</code>, <code>102-199</code> has been improved. [<a href="https://github.com/nodejs/node/commit/baf8495078"><code>baf8495078</code></a>]</li> <li>Multi-byte characters in URL paths are now forbidden. [<a href="https://github.com/nodejs/node/commit/b961d9fd83"><code>b961d9fd83</code></a>]</li> </ul> </li> <li> <p>N-API</p> <ul> <li>The n-api is no longer experimental. [<a href="https://github.com/nodejs/node/commit/cd7d7b15c1"><code>cd7d7b15c1</code></a>]</li> </ul> </li> <li> <p>Net</p> <ul> <li>The <code>'close'</code> event will be emitted after <code>'end'</code>. [<a href="https://github.com/nodejs/node/commit/9b7a6914a7"><code>9b7a6914a7</code></a>]</li> </ul> </li> <li> <p>Perf_hooks</p> <ul> <li>The <code>PerformanceObserver</code> class is now an <code>AsyncResource</code> and can be monitored using <code>async_hooks</code>. [<a href="https://github.com/nodejs/node/commit/009e41826f"><code>009e41826f</code></a>]</li> <li>Trace events are now emitted for performance events. [<a href="https://github.com/nodejs/node/commit/9e509b622b"><code>9e509b622b</code></a>]</li> <li>The <code>performance</code> API has been simplified. [<a href="https://github.com/nodejs/node/commit/2ec6995555"><code>2ec6995555</code></a>]</li> <li>Performance milestone marks will be emitted as trace events. [<a href="https://github.com/nodejs/node/commit/96cb4fb795"><code>96cb4fb795</code></a>]</li> </ul> </li> <li> <p>Process</p> <ul> <li>Using non-string values for <code>process.env</code> is deprecated. [<a href="https://github.com/nodejs/node/commit/5826fe4e79"><code>5826fe4e79</code></a>]</li> <li>The <code>process.assert()</code> method is deprecated. [<a href="https://github.com/nodejs/node/commit/703e37cf3f"><code>703e37cf3f</code></a>]</li> </ul> </li> <li> <p>REPL</p> <ul> <li>REPL now experimentally supports top-level await when using the <code>--experimental-repl-await</code> flag. [<a href="https://github.com/nodejs/node/commit/eeab7bc068"><code>eeab7bc068</code></a>]</li> <li>The previously deprecated “magic mode” has been removed. [<a href="https://github.com/nodejs/node/commit/4893f70d12"><code>4893f70d12</code></a>]</li> <li>The previously deprecated <code>NODE_REPL_HISTORY_FILE</code> environment variable has been removed. [<a href="https://github.com/nodejs/node/commit/60c9ad7979"><code>60c9ad7979</code></a>]</li> <li>Proxy objects are shown as Proxy objects when inspected. [<a href="https://github.com/nodejs/node/commit/90a43906ab"><code>90a43906ab</code></a>]</li> </ul> </li> <li> <p>Streams</p> <ul> <li>The <code>'readable'</code> event is now always deferred with nextTick. [<a href="https://github.com/nodejs/node/commit/1e0f3315c7"><code>1e0f3315c7</code></a>]</li> <li>A new <code>pipeline()</code> method has been provided for building end-to-data stream pipelines. [<a href="https://github.com/nodejs/node/commit/a5cf3feaf1"><code>a5cf3feaf1</code></a>]</li> <li>Experimental support for async for-await has been added to <code>stream.Readable</code>. [<a href="https://github.com/nodejs/node/commit/61b4d60c5d"><code>61b4d60c5d</code></a>]</li> </ul> </li> <li> <p>Timers</p> <ul> <li>The <code>enroll()</code> and <code>unenroll()</code> methods have been deprecated. [<a href="https://github.com/nodejs/node/commit/68783ae0b8"><code>68783ae0b8</code></a>]</li> </ul> </li> <li> <p>TLS</p> <ul> <li>The <code>tls.convertNONProtocols()</code> method has been deprecated. [<a href="https://github.com/nodejs/node/commit/9204a0db6e"><code>9204a0db6e</code></a>]</li> <li>Support for NPN (next protocol negotiation) has been dropped. [<a href="https://github.com/nodejs/node/commit/5bfbe5ceae"><code>5bfbe5ceae</code></a>]</li> <li>The <code>ecdhCurve</code> default is now <code>'auto'</code>. [<a href="https://github.com/nodejs/node/commit/af78840b19"><code>af78840b19</code></a>]</li> </ul> </li> <li> <p>Trace Events</p> <ul> <li>A new <code>trace_events</code> top-level module allows trace event categories to be enabled/disabld at runtime. [<a href="https://github.com/nodejs/node/commit/da5d818a54"><code>da5d818a54</code></a>]</li> </ul> </li> <li> <p>URL</p> <ul> <li>The WHATWG URL API is now a global. [<a href="https://github.com/nodejs/node/commit/312414662b"><code>312414662b</code></a>]</li> </ul> </li> <li> <p>Util</p> <ul> <li><code>util.types.is[…]</code> type checks have been added. [<a href="https://github.com/nodejs/node/commit/b20af8088a"><code>b20af8088a</code></a>]</li> <li>Support for bigint formatting has been added to <code>util.inspect()</code>. [<a href="https://github.com/nodejs/node/commit/39dc947409"><code>39dc947409</code></a>]</li> </ul> <h1>详情请<a href="https://github.com/nodejs/node/blob/10.0.0-proposal/doc/changelogs/CHANGELOG_V10.md">点击查看</a></h1> </li> </ul> </div>",
+title: "Node10 CHANGELOG---应该24号发布",
+last_reply_at: "2018-04-23T01:50:37.094Z",
+good: false,
+top: false,
+reply_count: 3,
+visit_count: 206,
+create_at: "2018-04-22T09:11:13.532Z",
+author: {
+loginname: "yuu2lee4",
+avatar_url: "https://avatars1.githubusercontent.com/u/8046366?v=4&s=120"
+}
+},
+{
+id: "5add39a2464b1bfa6b425861",
+author_id: "58f32ea3e54976e847e0a0d0",
+tab: "share",
+content: "<div class="markdown-text"><p><a href="http://new.adonis-china.org/docs/4.1-zh/installation">http://new.adonis-china.org/docs/4.1-zh/installation</a></p> <p>AdonisJs v4已趋于成熟，欢迎有兴趣的朋友参与翻译。</p> </div>",
+title: "AdonisJs中文文档召集翻译",
+last_reply_at: "2018-04-23T01:40:50.656Z",
+good: false,
+top: false,
+reply_count: 0,
+visit_count: 65,
+create_at: "2018-04-23T01:40:50.656Z",
+author: {
+loginname: "wxs77577",
+avatar_url: "https://avatars0.githubusercontent.com/u/1990059?v=4&s=120"
+}
+},
+{
+id: "5adc94f0ba60fcc66b7b874b",
+author_id: "593a2f99d3575f1303de3ad0",
+tab: "ask",
+content: "<div class="markdown-text"><p>比如映客直播, 用户一组礼物刷了5次, 我们需要X1, X2 ,X3 ,X4 ,X5 这样变化的动画效果, 是如何实现的</p> </div>",
+title: "JS如何实现刷礼物次数动画的效果",
+last_reply_at: "2018-04-22T16:04:55.535Z",
+good: false,
+top: false,
+reply_count: 4,
+visit_count: 192,
+create_at: "2018-04-22T13:58:08.977Z",
+author: {
+loginname: "xue99999",
+avatar_url: "https://avatars1.githubusercontent.com/u/20251601?v=4&s=120"
+}
+},
+{
+id: "5adb4af3464b1bfa6b42582b",
+author_id: "57bbcb58b32043f532d40e6f",
+tab: "ask",
+content: "<div class="markdown-text"><p>有使用了 async await 的，执行完成后，已经手动断开了 mongodb 的链接。 结果是链接貌似已经成功断开了，但是程序却一直没有退出，导致后续的再执行就链接不上 mongodb 了。该如何解决？ <img src="//dn-cnode.qbox.me/Fni8ewQQClEws-DOFeoJIPoeUSdJ" alt="image.png"> 这是爬虫的运行代码： <img src="//dn-cnode.qbox.me/FpG0eKBlIFzwFDMvYRv-ynNUsTns" alt="image.png"></p> </div>",
+title: "为什么我的 node 爬虫执行完成后，不会自动退出程序？",
+last_reply_at: "2018-04-22T15:15:03.872Z",
+good: false,
+top: false,
+reply_count: 6,
+visit_count: 213,
+create_at: "2018-04-21T14:30:11.566Z",
+author: {
+loginname: "JZLeung",
+avatar_url: "https://avatars2.githubusercontent.com/u/7995232?v=4&s=120"
+}
+},
+{
+id: "5ac1932be34737560fcca943",
+author_id: "5aaa0c6319b2e3db18959dc3",
+tab: "ask",
+content: "<div class="markdown-text"><p>目前默认是敏感大小写，怎么配置为不敏感呢？</p> </div>",
+title: "请问eggjs的router怎么配置大小写不敏感？",
+last_reply_at: "2018-04-22T14:59:23.684Z",
+good: false,
+top: false,
+reply_count: 4,
+visit_count: 497,
+create_at: "2018-04-02T02:19:23.970Z",
+author: {
+loginname: "chuanzai",
+avatar_url: "https://avatars3.githubusercontent.com/u/7691396?v=4&s=120"
+}
+},
+{
+id: "55a0dff4419f1e8a23a64276",
+author_id: "55728d26c4e7fbea6e9a2f07",
+tab: "ask",
+content: "<div class="markdown-text"><p>问题描述： 使用node开发了一个游戏服务器，为了尽可能提高服务器的性能，服务器采用多进程的架构，前面处理玩家socket连接的是多个node进程，使用 child_process 模块，服务器启动时fork出来，而处理玩家游戏逻辑的是单独一个node进程（因为玩家之间需要交互，而且玩家都是有状态的，所以无法分成多个进程）这个作为主进程；主进程与子进程之间使用使用child_process模块内建的通讯方式进行通讯；</p> <p>现在服务器性能出现瓶颈，服务器同时在线去到1500人左右，CPU占用率在40+左右，目标是3000人同时在线；通过CPU Profile分析，唯一无状态的可分离出来而且比较占用CPU的，就是玩家数据读数据库和保存数据库的时候，数据库使用的是mongodb,所以现在想把读写数据库的逻辑独立到一个新的进程中；但是问题来了，由于玩家的数据是一个大的Json结构，最大的大小能达到600+K，而node的child_process模块的内建进程间通讯是通过JSON.stringify和JSON.parse来转换成字符串来进行通讯的，所</p> <p>以独立出来以后，性能的问题，又指向了child_process模块中的进程之间的通讯的函数，通过实验： JSON.strinify 一个600K+玩家的数据平均需要35ms,JSON.parse 一个600K+玩家的数据平均需要20ms，而且这两个函数都是同步的，会造成阻塞；这也就是说主进程无法把一些包含大数据处理的任务分派到其他进程去做，这也直接限制了主进程的承载量和在线玩家人数；</p> <p>尝试找过一写解决的方案： 1.异步版的 JSON.stringify 和 JSON.parse ，可惜没有结果，正如这里的讨论：<a href="https://github.com/joyent/node/issues/7543">https://github.com/joyent/node/issues/7543</a> 2.为node加入多线程？node有几个多线程的库，但是貌似都不支持共享进程内存，无法操作主进程的内存，只能通过字符串进行交换数据，也就是说轮回到以上进程间的通讯问题；</p> <p>这个问题一直比较困扰，还没有找到好的解决方法，希望大牛来赐教</p> </div>",
+title: "node开发游戏服务器遇到的性能问题",
+last_reply_at: "2018-04-22T14:48:23.754Z",
+good: true,
+top: false,
+reply_count: 93,
+visit_count: 22173,
+create_at: "2015-07-11T09:20:52.975Z",
+author: {
+loginname: "wf744",
+avatar_url: "https://avatars.githubusercontent.com/u/3078907?v=3&s=120"
+}
+},
+{
+id: "5adc7bfaba60fcc66b7b8746",
+author_id: "5adc77d03edb2aff6be85e9c",
+tab: "share",
+content: "<div class="markdown-text"><p>Java端</p> <p>/**</p> <ul> <li> <p><a href="/user/ServerEndpoint">@ServerEndpoint</a> 注解是一个类层次的注解，他的功能主要是将目前的类定义成一个websocket的服务器端</p> </li> <li> <p>注解的值将被用于监听用户连接的终端访问URL地址，客户端可以通过这个URL来连接到WebSocker服务器端</p> </li> <li> <p>*/ <a href="/user/ServerEndpoint">@ServerEndpoint</a>(&quot;/websocket&quot;) public class WebSocketTest {</p> <p>// 静态变量，用来记录当前在线连接数。应该把它设计成线程安全的 private static int onlinCount = 0; // concurrent包的线程安全set，用来存放每个客户端对应的MyWebsocket对象，若要实现服务器端和单 // 一客户端通信的话，可以使用Map来存放，其中key可以为用户名 private static CopyOnWriteArraySet&lt;WebSocketTest&gt; webSocketSet = new CopyOnWriteArraySet&lt;WebSocketTest&gt;();</p> <p>// 与某个客户端的连接会话，需要通过它来给客户端发送数据 private Session session;</p> <p>/**</p> <ul> <li> <p>连接建立成功调用的方法</p> </li> <li> <p>@param session 可选的参数。session为与某个客户端的连接会话，通过它来给客户端发送数据</p> </li> <li> <p>*/ @OnOpen public void onOpen(Session session) { this.session = session; webSocketSet.add(this); // 加入set中 addOnlineCount(); // 在线数+1</p> <p>System.out.println(“有新连接加入！当前在线人数为：” + getOnlineCount());; }</p> </li> </ul> <p>/**</p> <ul> <li> <p>连接关闭时调用的方法</p> </li> <li> <p>*/ @OnClose public void onClose() { webSocketSet.remove(this); // 从set中删除 subOnlineCount(); // 在线人数-1</p> <p>System.out.println(“有一连接关闭！在线人数为：” + getOnlineCount()); }</p> </li> </ul> <p>/**</p> <ul> <li>收到客户端消息后调用的方法</li> <li>@param message 客户端发送的消息</li> <li>@param session 可选的参数</li> <li>*/ @OnMessage public void onMessage(String message, Session session) { System.out.println(“来自客户端的消息：” + message); // 群发消息 for(WebSocketTest item : webSocketSet) { try { item.sendMessage(message); } catch (Exception e) { e.printStackTrace(); continue; } } }</li> </ul> <p>public void sendMessage(String message) throws IOException{ this.session.getBasicRemote().sendText(message); // this.session.getAsyncRemote().sendText(message); }</p> <p>public static synchronized void addOnlineCount() { WebSocketTest.onlinCount++; }</p> <p>public static synchronized void subOnlineCount() { WebSocketTest.onlinCount–; }</p> <p>public static synchronized int getOnlineCount() { return onlinCount; } }</p> </li> </ul> <p>&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;meta charset=“UTF-8”&gt; &lt;title&gt;Java后端Websocket的实现&lt;/title&gt; &lt;/head&gt; &lt;body&gt;</p> <p>&lt;input type=“text” id=“text”&gt; &lt;button onclick=“send()”&gt;发送消息&lt;/button&gt; &lt;hr/&gt;</p> <p>&lt;button onclick=“closeWebSocket()”&gt;关闭WebSocket的连接&lt;/button&gt; &lt;hr/&gt;</p> <p>&lt;div id=“message”&gt;&lt;/div&gt; &lt;script&gt; var websocket = null;</p> <p>// 判断浏览器是否支持WebSocket if(‘WebSocket’ in window){ websocket = new WebSocket(“ws://localhost:8080/websocket”); }else{ alert(“当前浏览器不支持WebSocket”); }</p> <p>// 连接发生错误的回调方法 websocket.onerror = function(){ setMessageInnerHtml(“WebSocket连接发生错误！”); } // 连接成功建立的回调方法 websocket.onopen = function(){ setMessageInnerHtml(“WebSocket连接成功！”); }</p> <p>// 收到消息的回调方法 websocket.onmessage = function(event){ setMessageInnerHtml(event.data); }</p> <p>// 连接关闭的回调方法 websocket.onclose = function(){ setMessageInnerHtml(“WebSocket连接关闭！”); }</p> <p>// 监听窗口关闭事件，当窗口关闭时，主动关闭websocket的连接，防止连接还没断开就关闭窗口，server端会抛出异常 window.onbeforeunload = function(){ closeWebSocket(); }</p> <p>// 显示消息在网页上 function setMessageInnerHtml(message){ document.querySelector(&quot;#message&quot;).innerHtml += message + “&lt;br&gt;”; }</p> <p>// 关闭WebSocket的连接 function closeWebSocket(){ websocket.close(); }</p> <p>function send(){ var message = document.querySelector(&quot;#text&quot;).value; websocket.send(message); } &lt;/script&gt; &lt;/body&gt; &lt;/html&gt;</p> <p>这是拷贝别人的代码，不在所述问题范围内，详情点击这里写链接内容</p> <p>在连接的时候通常会出现握手失败 302错误，主要问题是URL路径不对，可以参考下面路径的设置方法 websocket = new WebSocket(“ws://localhost:端口号/项目名称/websocket”)</p> <p>在以上代码修改就可正常连接</p> <p>上一篇 Web Angular用户密码强度判别 下一篇 zTree 改造为适合项目要求使用</p> </div>",
+title: "Java WebSocket连接302错误 或者 握手失败错误",
+last_reply_at: "2018-04-22T12:11:38.279Z",
+good: false,
+top: false,
+reply_count: 0,
+visit_count: 93,
+create_at: "2018-04-22T12:11:38.279Z",
+author: {
+loginname: "zWorker9527",
+avatar_url: "https://avatars3.githubusercontent.com/u/34908130?v=4&s=120"
+}
+},
+{
+id: "5adc7b9cba60fcc66b7b8745",
+author_id: "5adc77d03edb2aff6be85e9c",
+tab: "share",
+content: "<div class="markdown-text"><p>libcurl主要功能就是用不同的协议连接和沟通不同的服务器~也就是相当封装了的sockPHP 支持libcurl（允许你用不同的协议连接和沟通不同的服务器）。, libcurl当前支持http, https, ftp, gopher, telnet, dict, file, 和ldap 协议。libcurl同样支持HTTPS证书授权，HTTP POST, HTTP PUT, FTP 上传（当然你也可以使用PHP的ftp扩展）, HTTP基本表单上传，代理，cookies,和用户认证。</p> <p>编译配置：</p> <p>正常情况下，我们不需要强制配置curlib的编译方式（32位或64位），配置如下：</p> <p>./configure --disable-shared --enable-static --without-libidn --without-ssl -without-librtmp --without-gnutls --without-nss --without-libssh2 --without-zlib --without-winidn --disable-rtsp --disable-ldap --disable-ldaps -disable-ipv6 （编译选项可自行配置）</p> <p>make</p> <p>make install</p> <p>但是如果在64位编译机上编译的curlib库，在32位机器上使用为出现错误：</p> <p>curlrules.h:143:41: error: size of array ‘<strong>curl_rule_01</strong>’ is negative [CurlchkszEQ(long, CURL_SIZEOF_LONG)]; ^ curlrules.h:153:53: error: size of array ‘<strong>curl_rule_02</strong>’ is negative</p> <pre class="prettyprint"><code> [CurlchkszEQ(curl_off_t, CURL_SIZEOF_CURL_OFF_T)]; </code></pre><p>此时，就需要强制使用32位方式进行编译，编译脚本改为如下：</p> <p>CFLAGS=’-m32’ CPPFLAGS=’-m32’ ./configure --disable-shared --enable-static --without-libidn --without-ssl -without-librtmp --without-gnutls --without-nss --without-libssh2 --without-zlib --without-winidn --disable-rtsp --disable-ldap --disable-ldaps -disable-ipv6 （编译选项可自行配置）</p> <p>make</p> <p>make install</p> <p>lubcurl的使用如下：</p> <p>curlhttpclient.h</p> <p>#ifndef _CURL_H #define _CURL_H</p> <p>#include “curl/curl.h” #include &lt;iostream&gt; using namespace std;</p> <p>class CUrlHttpClient { public:</p> <pre class="prettyprint"><code>CUrlHttpClient(){} ~CUrlHttpClient(){} &#x2F;* 功 能 Curl POST请求 参 数 strURL 输入参数,请求的Url地址,如:http:&#x2F;&#x2F;www.baidu.com strParam 输入参数,Post请求参数,使用Json格式 strResponse	输出参数,返回的内容 retCode	输出参数,返回的状态码 返 回 值 HTTP请求状态码 *&#x2F; CURLcode Post(string strURl, string strParam, string &amp; strResponse, long &amp; retCode); &#x2F;* 功 能 CURL GET请求 参 数 strURL 输入参数,请求的Url地址,如:http:&#x2F;&#x2F;www.baidu.com strResponse	输出参数,返回的内容 retCode	输出参数,返回的状态码 返 回 值 HTTP请求状态码 *&#x2F; CURLcode Get(const string &amp; strUrl, string &amp; strResponse, long &amp; retCode); &#x2F;* 功 能 请求回复信息处理函数 参 数 pBuffer 服务器回复信息字符串 size	获取数据的单字节数【1】 count	size的个数 pParam	预置的配置参数 返 回 值 服务器消息的字节数 说 明 pParam为在发送数据请求时配置的参数，通常是文件指针，或字符串地址 这里使用字符处，保存服务器返回数据 *&#x2F; static size_t onReqReply(void *pBuffer, size_t size, size_t count, void *pParam); static int onDebug(CURL *pcurl, curl_infotype itype, char * pData, size_t size, void *); </code></pre><p>private: static bool m_bDebug; public: static void SetDebug(bool bDebug); };</p> <p>#endif</p> <p>curlhttpclient.cpp</p> <p>#include “curlhttpclient.h”</p> <p>CURLcode CUrlHttpClient::Post(string strURl, string strParam, string &amp;strResponse, long &amp; retCode) { // 初始化 CURL 全局变量，并分配全局资源 curl_global_init(CURL_GLOBAL_ALL);</p> <pre class="prettyprint"><code>CURLcode returnCode; &#x2F;* 初始化CURL，并获取句柄 *&#x2F; CURL * curl = curl_easy_init(); if(NULL == curl) { return returnCode; } if(m_bDebug) { curl_easy_setopt(curl, CURLOPT_VERBOSE, 1);	&#x2F;&#x2F; 配置非0，表示输出调试信息 curl_easy_setopt(curl, CURLOPT_DEBUGFUNCTION, &amp;onDebug); &#x2F;&#x2F; 打印完整的调试信息 } &#x2F;* 配置URL *&#x2F; curl_easy_setopt(curl, CURLOPT_URL, strURl.c_str()); curl_easy_setopt(curl, CURLOPT_POST, 1); &#x2F;&#x2F; 配置非0，表示发送POST请求 &#x2F;* 配置HTTP请求 header*&#x2F;	curl_slist *headers = curl_slist_append(NULL, &quot;Content-Type:application&#x2F;json;charset=UTF-8&quot;); headers = curl_slist_append(headers, &quot;Accept:application&#x2F;json&quot;); curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers); &#x2F;* POST请求信息配置 *&#x2F; curl_easy_setopt(curl, CURLOPT_POSTFIELDS, strParam.c_str());	&#x2F;&#x2F; 设置POST请求参数 curl_easy_setopt(curl, CURLOPT_HEADER, 0);	&#x2F;&#x2F; 配置为0，表示返回的内容里不包含http header curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, onReqReply);	&#x2F;&#x2F; 配置返回数据时执行的回调函数，可对返回数据进行处理 curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void *)&amp;strResponse); &#x2F;&#x2F; 设置传递给回调函数的第4个参数 curl_easy_setopt(curl, CURLOPT_READFUNCTION, NULL); curl_easy_setopt(curl, CURLOPT_NOSIGNAL, 1); curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT_MS, 2000); curl_easy_setopt(curl, CURLOPT_TIMEOUT, 10); &#x2F;* 执行POST请求，并获取返回值*&#x2F; returnCode = curl_easy_perform(curl); &#x2F;* 获取状态码 *&#x2F; curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE , &amp;retCode); curl_slist_free_all(headers); &#x2F;* 释放资源 *&#x2F; curl_easy_cleanup(curl); &#x2F;* 释放全局资源 *&#x2F; curl_global_cleanup(); return returnCode; </code></pre><p>}</p> <p>CURLcode CUrlHttpClient::Get(const string &amp; strUrl, string &amp; strResponse, long &amp; retCode) { // 初始化 CURL 全局变量，并分配全局资源 curl_global_init(CURL_GLOBAL_ALL);</p> <pre class="prettyprint"><code>CURLcode returnCode; &#x2F;* 初始化CURL，并获取句柄 *&#x2F; CURL * curl = curl_easy_init(); if(NULL == curl) { return returnCode; } if(m_bDebug) { curl_easy_setopt(curl, CURLOPT_VERBOSE, 1);	&#x2F;&#x2F; 配置非0，表示输出调试信息 curl_easy_setopt(curl, CURLOPT_DEBUGFUNCTION, onDebug); &#x2F;&#x2F; 打印完整的调试信息 } &#x2F;* 配置URL *&#x2F; curl_easy_setopt(curl, CURLOPT_URL, strUrl.c_str()); curl_easy_setopt(curl, CURLOPT_READFUNCTION, NULL); curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, onReqReply);	&#x2F;&#x2F; 配置返回数据时执行的回调函数，可对返回数据进行处理 curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void *)&amp;strResponse); &#x2F;&#x2F; 设置传递给回调函数的第4个参数 &#x2F;** * 当多个线程都使用超时处理的时候，同时主线程中有sleep或是wait等操作。 * 如果不设置这个选项，libcurl将会发信号打断这个wait从而导致程序退出。 *&#x2F; curl_easy_setopt(curl, CURLOPT_NOSIGNAL, 1); curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 6); curl_easy_setopt(curl, CURLOPT_TIMEOUT, 10); &#x2F;* 执行POST请求，并获取返回值*&#x2F; returnCode = curl_easy_perform(curl); &#x2F;* 获取状态码 *&#x2F; curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE , &amp;retCode); &#x2F;* 释放资源 *&#x2F; curl_easy_cleanup(curl); &#x2F;* 释放全局资源 *&#x2F; curl_global_cleanup(); return returnCode; </code></pre><p>}</p> <p>size_t CUrlHttpClient::onReqReply(void <em>pBuffer, size_t size, size_t count, void <em>lpVoid) {<br> string</em> str = dynamic_cast&lt;string</em>&gt;((string *)lpVoid);<br> if( NULL == str || NULL == pBuffer )<br> {<br> return -1;<br> }</p> <pre class="prettyprint"><code> char* pData = (char*)pBuffer; cout &lt;&lt; &quot;[&quot; &lt;&lt; pBuffer &lt;&lt; &#x27;]&#x27;; str-&gt;append(pData, size * count); return size * count; </code></pre><p>}</p> <p>int CUrlHttpClient::onDebug(CURL *pcurl, curl_infotype itype, char * pData, size_t size, void *)<br> {<br> if(itype == CURLINFO_TEXT) {<br> cout &lt;&lt; “[TEXT]:” &lt;&lt; pData;<br> }<br> else if(itype == CURLINFO_HEADER_IN)<br> {<br> cout &lt;&lt; “[HEADER_IN]:” &lt;&lt; pData;<br> }<br> else if(itype == CURLINFO_HEADER_OUT)<br> {<br> cout &lt;&lt; “[HEADER_OUT]:” &lt;&lt; pData;<br> }<br> else if(itype == CURLINFO_DATA_IN)<br> {<br> cout &lt;&lt; “[DATA_IN]:” &lt;&lt; pData;<br> }<br> else if(itype == CURLINFO_DATA_OUT)<br> {<br> cout &lt;&lt; “[DATA_OUT]:” &lt;&lt; pData;<br> }<br> return 0;<br> }</p> <p>bool CUrlHttpClient::m_bDebug = false;</p> <p>void CUrlHttpClient::SetDebug(bool bDebug) { m_bDebug = bDebug;<br> }</p> <p>使用：</p> <pre class="prettyprint"><code> s8	achUrl[TP_REC_FILE_LEN + 1]; string	strResponse; long	retCode; sprintf(achUrl, &quot;http:&#x2F;&#x2F;%s&#x2F;%s?ssoToken=%s&quot;, tSSOServerInfo.achSSOServer, SSO_LOGIN_OUT, strToken.c_str()); m_cUrlHttpClient.Post(achUrl, &quot;&quot;, strResponse, retCode); </code></pre><p>strResponse 是网络访问的返回内容，retCode是网络请求返回码</p> </div>",
+title: "linux curl编译错误：curlrules.h:143:41: error: size of array ‘__curl_rule_01__’ is negative解决办法",
+last_reply_at: "2018-04-22T12:10:04.123Z",
+good: false,
+top: false,
+reply_count: 0,
+visit_count: 79,
+create_at: "2018-04-22T12:10:04.123Z",
+author: {
+loginname: "zWorker9527",
+avatar_url: "https://avatars3.githubusercontent.com/u/34908130?v=4&s=120"
+}
+},
+{
+id: "5a9900882ffb8598445aea7b",
+author_id: "547c35030ae47dec03aa2939",
+tab: "share",
+content: "<div class="markdown-text"><p><strong>第一节 课程概述</strong></p> <p>本课程面向初学者，内容涵盖以太坊开发相关的基本概念，并将手把手地教大家如何构建一个 基于以太坊的完整去中心化应用 —— 区块链投票系统。</p> <p><img src="http://upload-images.jianshu.io/upload_images/145564-05af8271c5d269b2..png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="ethereum logo"></p> <p>通过本课程的学习，你将掌握：</p> <ul> <li> <p>以太坊区块链的基本知识</p> </li> <li> <p>开发和部署以太坊合约所需的软件环境</p> </li> <li> <p>使用高级语言（<code>solidity</code>）编写以太坊合约</p> </li> <li> <p>使用NodeJS编译、部署合约并与之交互</p> </li> <li> <p>使用<code>Truffle</code>框架开发分布式应用</p> </li> <li> <p>使用控制台或网页与合约进行交互</p> </li> </ul> <p>前序知识要求</p> <p>为了顺利完成本课程，最好对以下技术已经有一些基本了解：</p> <ul> <li> <p>一种面向对象的开发语言，例如：Python，Ruby，Java…</p> </li> <li> <p>前端开发语言：HTML/CSS/JavaScript</p> </li> <li> <p>Linxu命令行的使用</p> </li> <li> <p>数据库的基本概念</p> </li> </ul> <p>课程的所有代码均已在Ubuntu（Trusty、Xenial）和 macOS 上测试过。</p> <p><strong>第二节 课程简介</strong></p> <p>在本课程中，我们将会构建一个去中心化的（<code>Decentralized</code>）投票应用。利用这个投票应用， 用户可以在不可信（<code>trustless</code>）的分布环境中对特定候选人投票，每次投票都会被记录在区块 链上：</p> <p><img src="http://upload-images.jianshu.io/upload_images/145564-54aa78522a079801..png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="voting dapp"></p> <p>所谓去中心化应用（<code>DApp</code>：Dcentralized Application），就是一个不存在中心服务器 的应用。在网络中成百上千的电脑上，都可以运行该应用的副本，这使得它几乎不可能 出现宕机的情况。</p> <p>基于区块链的投票是完全去中心化的，因此无须任何中心化机构的存在。</p> <p><strong>第三节 开发迭代</strong></p> <p>本课程将涵盖应用开发的整个过程，我们将通过三次迭代来渐进地引入区块链应用 开发所涉及的相关概念、语言和工具：</p> <p><img src="http://upload-images.jianshu.io/upload_images/145564-0054cf4a4728ac74..png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="voting dapp iteration"></p> <ul> <li> <p>Vanilla：在第一个迭代周期，我们不借助任何开发框架，而仅仅使用NodeJS来进行应用开发， 这有助于我们更好地理解区块链应用的核心理念。</p> </li> <li> <p>Truffle：在第二个迭代周期，我们将使用最流行的去中心化应用开发框架<code>Truffle</code>进行开发。 使用开发框架有助于我们提高开发效率。</p> </li> <li> <p>Token：在第三个迭代周期，我们将为投票应用引入代币（<code>Token</code>） —— 现在大家都改口 称之为通证了 —— 都是<code>ICO</code>惹的祸。代币是公链上不可或缺的激励机制，也是区块链 应用区别于传统的中心化应用的另一个显著特征。</p> </li> </ul> <p>为什么选择投票应用作为课程项目？</p> <p>之所以选择投票作为我们的第一个区块链应用，是因为集体决策 —— 尤其是投票机制 —— 是以太坊的 一个核心的价值主张。</p> <p>另一个原因在于，投票是很多复杂的去中心化应用的基础构件，所以我们选择了投票应用作为学习区块链 应用开发的第一个项目。</p> <p>希望直接进入编程环境开始学习的可以看这里： <a href="http://xc.hubwiz.com/course/5a952991adb3847553d205d1?affid=20180410cnode">http://xc.hubwiz.com/course/5a952991adb3847553d205d1</a></p> <p><strong>第四节 初识区块链</strong></p> <p>如果你熟悉关系型数据库，就应该知道一张数据表里可以包含很多行数据记录。例如，下面的数据表中 包含了6条交易记录：</p> <p><img src="http://upload-images.jianshu.io/upload_images/145564-113159ced40bd21e..png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="relation database"></p> <p>本质上，区块链首先就是一个分布式（<code>Distributed</code>）数据库，这个数据库维护了一个不断增长的记录列表。 现在，让我们对数据进行批量（<code>batch</code>）存储，比如每批 100 行，并将各存储批次连接起来，是不是就像一条链？</p> <p><img src="http://upload-images.jianshu.io/upload_images/145564-28930d25d9bf48af..png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="chain"></p> <p>在区块链里，多个数据记录组成的批次就被称为块（<code>block</code>），块里的每一行数据记录就被称为交易（<code>transaction</code>）：</p> <p><img src="http://upload-images.jianshu.io/upload_images/145564-4022ed583142243e..png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="basic blockchain"></p> <p>最开始的那个块，通常被称为创世块（<code>genesis block</code>），它不指向任何其他块。</p> <p>不可篡改性</p> <p>区块链的一个显著特点是，数据一旦写入链中，就不可篡改重写。</p> <p>在传统的关系型数据库中，你可以很容易地更新一条数据记录。但是，在区块链中，一旦数据写入就无法 再更新了 —— 因此，区块链是一直增长的。</p> <p>那么，区块链是如何实现数据的不可篡改特性？</p> <p>这首先得益于哈希（<code>Hash</code>）函数 —— 如果你还没接触过哈希函数，不妨将它视为一个数字指纹的计算函数： 输入任意长度的内容，输出定长的码流（指纹）。哈希函数的一个重要特性就是，输入的任何一点微小变化，都会 导致输出的改变。因此可以将哈希值作为内容的指纹来使用。 你可以点击<a href="https://simple.wikipedia.org/wiki/Cryptographic_hash_function">这里</a>进一步了解哈希函数。</p> <p>由于区块链里的每个块都存储有前一个块内容的哈希值，因此如果有任何块的内容被篡改，被篡改的块之后 所有块的哈希值也会随之改变，这样我们就很容易检测出区块链的各块是否被篡改了。</p> <p>去中心化的挑战</p> <p>一旦完全去中心化，在网络上就会存在大量的区块链副本（即：全节点），很多事情都会变得比之前中心化 应用环境复杂的多，例如：</p> <ul> <li> <p>如何保证所有副本都已同步到最新状态？</p> </li> <li> <p>如何保证所有交易都被广播到所有运行和维护区块链副本的节点计算机上？</p> </li> <li> <p>如何防止恶意参与者篡改区块链</p> </li> <li> <p>…</p> </li> </ul> <p>在接下来的课程中，通过与经典的C/S架构的对比，我们将逐步理解去中心化应用的核心思路， 并掌握如何构建以太坊上的去中心化应用。</p> <p><strong>第五节 C/S架构以服务器为中心</strong></p> <p>理解去中心化应用架构的最好方法，就是将它与熟悉的<code>Client/Server</code>架构进行对比。如果你是一个<code>web</code>开发者， 应该对下图很了解，这是一个典型的<code>Client/Server</code>架构：</p> <p><img src="http://upload-images.jianshu.io/upload_images/145564-b8f8995d2f5029ec..png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="webapp architecture"></p> <p>一个典型web应用的服务端通常由 Java，Ruby，Python 等等语言实现。前端代码由 HTML/CSS/JavaScript 实现。 然后将整个应用托管在云端，比如 AWS、Google Cloud Platform、Heroku…，或者放在你租用的一个<code>VPS</code> 主机上。</p> <p>用户通过客户端（<code>Client</code>）与 web 应用（<code>Server</code>）进行交互。典型的客户端包括浏览器、命令行工具（<code>curl</code>、<code>wget</code>等）、 或者是<code>API</code>访问代码。注意在这种架构中，总是存在一个（或一组）中心化的 web 服务器，所有的客户端都需要 与这一（组）服务器进行交互。当一个客户端向服务器发出请求时，服务器处理该请求，与数据库/缓存进行交互， 读/写/更新数据库，然后向客户端返回响应。</p> <p>这是我们熟悉的中心化架构。在下一节，我们将会看到基于区块链的去中心化架构的一些显著区别。</p> <p><strong>第六节 去中心化架构——彼此平等的节点</strong></p> <p>下图给出了基于以太坊的去中心化应用架构：</p> <p><img src="http://upload-images.jianshu.io/upload_images/145564-05d600afa139209e..png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="ethereum architecture"></p> <p>你应该已经注意到，每个客户端（浏览器）都是与各自的节点应用实例进行交互，而不是向 一个中心化的服务器请求服务。</p> <p>在一个理想的去中心化环境中，每个想要跟DApp交互的人，都需要在他们的计算机或手机上面运行 一个的完整区块链节点 —— 简言之，每个人都运行一个全节点。这意味着，在能够真正使用一个 去中心化应用之前，用户不得不下载整个区块链。</p> <p>不过我们并非生活在一个乌托邦里，期待每个用户都先运行一个全节点，然后再使用你的应用是不现实的。 但是去中心化背后的核心思想，就是不依赖于中心化的服务器。所以，区块链社区已经出现了 一些解决方案，例如提供公共区块链节点的<code>Infura</code>, 以及浏览器插件<code>Metamask</code>等。通过这些方案， 你就不需要花费大量的硬盘、内存和时间去下载并运行完整的区块链节点，同时也可以利用去中心化 的优点。我们将会以后的课程中对这些解决方案分别进行评测。</p> <p><strong>第七节 以太坊——世界计算机</strong></p> <p>以太坊是一种区块链的实现。在以太坊网络中，众多的节点彼此连接，构成了以太坊网络：</p> <p><img src="http://upload-images.jianshu.io/upload_images/145564-55c0685dcd2a9e27..png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="ethereum"></p> <p>以太坊节点软件提供两个核心功能：数据存储、合约代码执行。</p> <p>在每个以太坊全节点中，都保存有完整的区块链数据。以太坊不仅将交易数据保存在链上，编译后 的合约代码同样也保存在链上。</p> <p>以太坊全节点中，同时还提供了一个虚拟机来执行合约代码。</p> <p>交易数据</p> <p>以太坊中每笔交易都存储在区块链上。当你部署合约时，一次部署就是一笔交易。当你为候选者投票时，一次投票 又是另一笔交易。所有的这些交易都是公开的，每个人都可以看到并进行验证。这个数据永远也无法篡改。</p> <p>为了确保网络中的所有节点都有着同一份数据拷贝，并且没有向数据库中写入任何无效数据，以太坊 目前使用<a href="http://ethereum.stackexchange.com/questions/14/what-proof-of-work-function-does-ethereum-use">工作量证明</a> （<code>POW：Proof Of Work</code>）算法来保证网络安全，即通过矿工挖矿（<code>Mining</code>）来达成共识（<code>Consensus</code>）—— 将数据同步到所有节点。</p> <p>工作量证明不是达成共识的唯一算法，挖矿也不是区块链的唯一选择。现在，我们只需要了解，共识是指各节点 的数据实现了一致，<code>POW</code>只是众多用于建立共识的算法中的一种，这种算法需要通过矿工的挖矿来实现非可信环境下的 可信交易。共识是目的，POW是手段。</p> <p>合约代码</p> <p>以太坊不仅仅在链上存储交易数据，它还可以在链上存储合约代码。</p> <p>在数据库层面，区块链的作用就是存储交易数据。那么给候选者投票、或者检索投票结果的逻辑放在哪儿呢？ 在以太坊的世界里，你可以使用<code>Solidity</code>语言来编写业务逻辑/应用代码（也就是合约：<code>Contract</code>）， 然后将合约代码编译为以太坊字节码，并将字节码部署到区块链上：</p> <p><img src="http://upload-images.jianshu.io/upload_images/145564-bc27269f17d4031c..png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="contract development and deploy"></p> <p>编写合约代码也可以使用其他的语言，不过 <code>Solidity</code>是到目前为止最流行的选择。</p> <p>以太坊虚拟机</p> <p>以太坊区块链不仅存储数据和代码，每个节点中还包含一个虚拟机（EVM：Ethereum Virtual Machine）来执行 合约代码 —— 听起来就像计算机操作系统。</p> <p>事实上，这一点是以太坊区别于比特币（<code>Bitcoin</code>）的最核心的一点：虚拟机的存在使区块链迈入了2.0 时代，也让区块链第一次成为应用开发者友好的平台。</p> <p>JS开发库</p> <p>为了便于构建基于web的DApp，以太坊还提供了一个非常方便的JavaScript库<code>web3.js</code>，它封装了以太坊节点的API 协议，从而让开发者可以轻松地连接到区块链节点而不必编写繁琐的<code>RPC</code>协议包。所以，我们可以在常用的JS框架 （比如 reactjs、angularjs 等)中直接引入该库来构建去中心化应用：</p> <p><img src="http://upload-images.jianshu.io/upload_images/145564-8a5c614cb56709c0..png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="web3.js"></p> <p>PC端课程地址： <a href="http://xc.hubwiz.com/course/5a952991adb3847553d205d1?affid=20180410cnode">http://xc.hubwiz.com/course/5a952991adb3847553d205d1</a></p> </div>",
+title: "以太坊 DApp 开发入门实战！ 用Node.js和truffle框架搭建——区块链投票系统！",
+last_reply_at: "2018-04-22T11:03:35.286Z",
+good: false,
+top: false,
+reply_count: 14,
+visit_count: 3366,
+create_at: "2018-03-02T07:43:04.745Z",
+author: {
+loginname: "2596887568",
+avatar_url: "https://avatars3.githubusercontent.com/u/9349200?v=4&s=120"
+}
+},
+{
+id: "5ad1c72ba7d228c16b986ae4",
+author_id: "5997f817f36051a45246c171",
+tab: "share",
+content: "<div class="markdown-text"><h4>代码</h4> <pre class="prettyprint"><code>	let Sequence = function(){ let i = -1, args = arguments, l = args.length; (function lambda(){ return new Promise((next)=&gt;{ i ++; if(i&lt;l) args[i](next); }).then(lambda); })(); } </code></pre><h4>用法</h4> <pre class="prettyprint"><code>	Sequence( n=&gt;{ &#x2F;&#x2F; ... n(); }, n=&gt;{ &#x2F;&#x2F;... n(); } ) </code></pre><h2>实现过程：</h2> <h3>第1步</h3> <p>理解promise，仅传入resolve，以减少不必要的干扰。</p> <pre class="prettyprint"><code>	let p1 = new Promise((resolve)=&gt;{ resolve(1);	}); p1.then(console.log); let p2 = new Promise((resolve)=&gt;{ resolve(1); }); p2.then( (i)=&gt;{ console.log(100*i) }); </code></pre><h3>第2步：</h3> <p>理解promise对回调地狱的优化。</p> <pre class="prettyprint language-"><code>	new Promise((resolve)=&gt;{ let e = 1; resolve(e); }).then( (e)=&gt;{ return new Promise((resolve)=&gt;{ console.log(e); resolve(e+1); }); }).then( (e)=&gt;{ return new Promise((resolve)=&gt;{ console.log(e); resolve(e+1); }); }).then(console.log); </code></pre><h3>第3步</h3> <p>抽象代码，精简主流程。</p> <pre class="prettyprint"><code>	function promiseCount(e){ return new Promise((resolve)=&gt;{ console.log(e); resolve(e+1); }); } new Promise((resolve)=&gt;{ resolve(1); }).then( promiseCount ).then( promiseCount ).then(console.log); </code></pre><h3>第4步</h3> <p>编写执行器，把setTimeout作为测试用异步事件。执行器内部设置index作 “辅助指针” 指向当前递归事件。</p> <pre class="prettyprint"><code>	let eventArray = [ (callback)=&gt;{ console.log(1); $.ajax({ url, success(){ callback(); } }) }, (callback)=&gt;{ console.log(2); setTimeout(callback,100); }, (callback)=&gt;{ console.log(3); setTimeout(callback,100); }, (callback)=&gt;{ console.log(4); setTimeout(callback,100); }, (callback)=&gt;{ console.log(5); setTimeout(callback,100); } ]; function Sequence(eventArray){ let index = -1; (function lambda(){ return new Promise((resolve)=&gt;{ index ++;	&#x2F;&#x2F;	指向队列中的下一个事件 if(index&lt;eventArray.length){ eventArray[index](resolve);	&#x2F;&#x2F;	把resolve交由当前事件的回调函数处理，即当前事件执行完之后就会执行then中新的lambda，得到的效果是“同步” } }).then(lambda); })(); } Sequence(eventArray); </code></pre><h3>第5步 （选看）</h3> <p>增加数据收集器</p> <pre class="prettyprint"><code>	let eventArray = [ (callback)=&gt;{ console.log(1); setTimeout(function(){ callback().collector.z=0; callback().resolve(); },100); }, (callback)=&gt;{ console.log(2); setTimeout(function(){ callback().collector.a=1; callback().resolve(); },100); }, (callback)=&gt;{ console.log(3); setTimeout(function(){ callback().collector.b=2; callback().resolve(); },100); }, (callback)=&gt;{ console.log(4); setTimeout(function(){ callback().collector.c=3; callback().resolve(); },100); }, (callback)=&gt;{ console.log(5); setTimeout(function(){ callback().collector.d=4; callback().resolve(); },100); } ]; let Sequence = function(eventArray){ let index = -1, events = eventArray; let collector = {}; (function lambda(){ return new Promise((resolve)=&gt;{ index ++; if(index&lt;events.length){ events[index](()=&gt;{ return { resolve, collector, } }); } }).then(lambda); })(); this.getData = function(){ return collector; } this.clear = function(){ collector = null; } } let ev = new Sequence(eventArray); setTimeout(function(){ console.log(ev.getData()) },2000); </code></pre><p>collector会一直存在ev对象的内部，仅能通过调用getData获取。当然还可以往Sequence里添加更多方法。</p> <h3>第6步</h3> <p>提炼核心, 并把 resolve 改为 next.</p> <pre class="prettyprint"><code>	let Sequence = function(eventArray){ let index = -1; (function lambda(){ return new Promise((next)=&gt;{ index ++; if(index&lt;eventArray.length){ eventArray[index](next); } }).then(lambda); })(); } new Sequence([ (next)=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; do something console.log(1); next(); },100); }, (next)=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; do something console.log(2); next(); },100); }, (next)=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; do something console.log(3); next(); },100); }, (next)=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; do something console.log(4); next(); },100); }, (next)=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; do something console.log(5); next(); },100); } ]); </code></pre><h3>最后一步</h3> <p>再次精简代码并提炼写法，减少调用键入次数。</p> <pre class="prettyprint"><code>let Sequence = function(){ let i = -1, args = arguments, l = args.length; (function lambda(){ return new Promise((next)=&gt;{ i ++; if(i&lt;l) args[i](next); }).then(lambda); })(); } new Sequence( next=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; do something console.log(1); next(); },100); }, next=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; do something console.log(2); next(); },100); }, next=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; do something console.log(3); next(); },100); }, next=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; do something console.log(4); next(); },100); }, next=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; do something console.log(5); next(); },100); } ); </code></pre><h3>最终结果</h3> <pre class="prettyprint"><code> let Sequence = function(){ let i = -1, args = arguments, l = args.length; (function lambda(){ return new Promise((next)=&gt;{ i ++; if(i&lt;l) args[i](next); }).then(lambda); })(); } </code></pre><p>发布于 NPM, 安装：npm i zfc-sequence</p> <h4>最终用法</h4> <pre class="prettyprint"><code>let sequence = require(&#x27;zfc-sequence&#x27;); sequence( next=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; ... next(); },1000)	}, next=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; ... next(); },1000)	}, next=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; ... next(); },1000)	}, next=&gt;{ setTimeout(()=&gt;{ &#x2F;&#x2F; ... next(); },1000)	} ); </code></pre></div>",
+title: "九行代码实现异步事件顺序执行器",
+last_reply_at: "2018-04-22T10:15:09.514Z",
+good: false,
+top: false,
+reply_count: 15,
+visit_count: 846,
+create_at: "2018-04-14T09:17:31.469Z",
+author: {
+loginname: "DoubleCG",
+avatar_url: "https://avatars1.githubusercontent.com/u/19707468?v=4&s=120"
+}
+},
+{
+id: "5ad784f1a7d228c16b986f03",
+author_id: "5560108c4eb040084cfe5d2a",
+tab: "share",
+content: "<div class="markdown-text"><p>我去掉吐槽，重新写了一篇：<a href="https://zhuanlan.zhihu.com/p/35880323">请 Node.js 社区正面回答</a></p> <p><a href="https://zhuanlan.zhihu.com/p/35848291">原文在知乎</a>，欢迎交(tu)流(cao)</p> <blockquote> <p>我终于知道为什么 npm install 总是动不动就下载 300 Mb 的东西了，Node.js 社区强调的 DRY 文化使得 <code>node_modules</code> 臃肿不堪，因为有的库引用了 is-object，有的库引用了 isobject，还有的库引用了 isObject，每个包看起来很 DRY，但是合起来就 wet 得不行了，呵呵。</p> </blockquote> <p>我一直以为 npm 里下载量较大的 package 是 React 这样不错的包。</p> <p>今天我才知道我错了。</p> <p>目前 React 每周下载量是 240 万次。</p> <p>然而下面我要说的几个包的下载量全都大于 React ！</p> <hr> <p><a href="https://link.zhihu.com/?target=https%3A//www.npmjs.com/package/is-odd">is-odd</a>，每周下载 300 万次</p> <p>源代码如下：</p> <pre class="prettyprint"><code>&#x27;use strict&#x27;; var isNumber = require(&#x27;is-number&#x27;); module.exports = function isOdd(i) { if (!isNumber(i)) { throw new TypeError(&#x27;is-odd expects a number.&#x27;); } if (Number(i) !== Math.floor(i)) { throw new RangeError(&#x27;is-odd expects an integer.&#x27;); } return !!(~~i &amp; 1); }; </code></pre><p>你没有看错，五行核心代码，还依赖了一个 is-number 库。</p> <hr> <p>这个 is-number 库更厉害，每周下载 1000 万次</p> <p>源代码如下：</p> <pre class="prettyprint"><code>&#x27;use strict&#x27;; module.exports = function isNumber(num) { var number = +num; if ((number - number) !== 0) { &#x2F;&#x2F; Discard Infinity and NaN return false; } if (number === num) { return true; } if (typeof num === &#x27;string&#x27;) { &#x2F;&#x2F; String parsed, both a non-empty whitespace string and an empty string &#x2F;&#x2F; will have been coerced to 0\. If 0 trim the string and see if its empty. if (number === 0 &amp;&amp; num.trim() === &#x27;&#x27;) { return false; } return true; } return false; }; </code></pre><p>后来我发现这两个库的作者是同一个人（该作者水平很高），这个人还写了另外几个库：</p> <ul> <li>is-plain-object，每周下载量 330 万</li> <li>is-primitive，每周下载量 350 万，<a href="https://link.zhihu.com/?target=https%3A//github.com/jonschlinkert/is-primitive/blob/master/index.js">源代码你自己可以看看</a></li> <li>isobject，每周下载量 750 万</li> </ul> <p>需要指出的是</p> <ol> <li>webpack、babel 等库都有「间接地」依赖上面的一些包。</li> <li>这些包的 markdown 代码远远多于 JS 代码，可能它们的 markdown 更值得我们学习</li> </ol> <p>这件事对我的启发：</p> <ol> <li>原来有这么多 JS 程序员不会判断奇数</li> <li>只要 markdown 写得漂亮，就能迷倒 JS 程序员</li> <li>1 + ‘1’ 的问题一直在困扰 JS 程序员，我要不要写一个 add() 库解决这个问题呢</li> </ol> <blockquote> <p><strong>我终于知道为什么 npm install 总是动不动就下载 300 Mb 的东西了，Node.js 社区强调的 DRY 文化使得 node_modules 臃肿不堪，因为有的库引用了 is-object，有的库引用了 isobject，还有的库引用了 isObject，每个包看起来很 DRY，但是合起来就 wet 得不行了，呵呵。</strong></p> </blockquote> <p>Node 社区跟我想得不太一样，说不上好也说不上坏，反正不是很适合我。</p> <hr> <p>以下是扯淡。</p> <p>我是看到 Medium 上的一篇《<a href="https://link.zhihu.com/?target=https%3A//medium.com/%40caspervonb/the-internet-is-at-the-mercy-of-a-handful-of-people-73fac4bc5068">混乱又危险的 Node.js 生态</a>》才知道这些的，这篇文章里的一个评论我很赞同：</p> <p><img src="https://pic3.zhimg.com/80/v2-11a937ddbae5419e3c56d3b5a91c1ab7_hd.jpg" alt></p> <p>如果你不能在十秒钟内写出一个判断奇数的函数，要么你是一个糟糕的打字员，要么你就不应该当程序员！</p> <p>还有一些颇为搞笑的评论：</p> <p><img src="https://pic3.zhimg.com/80/v2-8af313f37645c1ba11abe12b62d82df3_hd.jpg" alt></p> <p><img src="https://pic3.zhimg.com/80/v2-8ccc6c397d773dc29fe6138f72ce3275_hd.jpg" alt></p> <p><img src="https://pic2.zhimg.com/80/v2-9b9d06c0a0d630ce723b7c8dbc046b74_hd.jpg" alt></p> <p><img src="https://pic4.zhimg.com/80/v2-21bbf260279e9f7d98d0be30e3a65fcc_hd.jpg" alt></p> </div>",
+title: "我不是很懂 Node.js 社区的 DRY 文化",
+last_reply_at: "2018-04-22T02:00:01.811Z",
+good: true,
+top: false,
+reply_count: 39,
+visit_count: 2677,
+create_at: "2018-04-18T17:48:33.476Z",
+author: {
+loginname: "FrankFang",
+avatar_url: "https://avatars0.githubusercontent.com/u/839559?v=4&s=120"
+}
+},
+{
+id: "5ac5ecdee34737560fccaa40",
+author_id: "4f447c2f0a8abae26e01b27d",
+tab: "share",
+content: "<div class="markdown-text"><p><img src="https://user-images.githubusercontent.com/227713/38357893-627a1cc0-38f6-11e8-9003-ef3931a9e939.png" alt="slice"></p> <h2>前言</h2> <blockquote> <p><a href="https://www.typescriptlang.org/">TypeScript</a> is a typed superset of JavaScript that compiles to plain JavaScript.</p> </blockquote> <p>TypeScript 的静态类型检查，智能提示，IDE 友好性等特性，对于大规模企业级应用，是非常的有价值的。详见：<a href="https://juejin.im/post/59c46bc86fb9a00a4636f939">TypeScript体系调研报告</a> 。</p> <p>然而，此前使用 TypeScript 开发 Egg ，会遇到一些影响 <strong>开发者体验</strong> 问题：</p> <ul> <li>Egg 最精髓的 Loader 自动加载机制，导致 TS 无法静态分析出部分依赖。</li> <li>Config 自动合并机制下，如何在 <code>config.{env}.js</code> 里面修改插件提供的配置时，能校验并智能提示？</li> <li>开发期需要独立开一个 <code>tsc -w</code> 独立进程来构建代码，带来临时文件位置纠结以及 <code>npm scripts</code> 复杂化。</li> <li>单元测试，覆盖率测试，线上错误堆栈如何指向 TS 源文件，而不是编译后的 js 文件。</li> </ul> <p>本文主要阐述：</p> <ul> <li><strong>应用层 TS 开发规范</strong></li> <li><strong>我们在工具链方面的支持，是如何来解决上述问题，让开发者几乎无感知并保持一致性。</strong></li> </ul> <p>具体的折腾过程参见：<a href="https://github.com/eggjs/egg/issues/2272">[RFC] TypeScript tool support</a></p> <hr> <h2>快速入门</h2> <p>通过骨架快速初始化：</p> <pre class="prettyprint language-bash"><code>$ npx egg-init --type=ts showcase $ cd showcase &amp;&amp; npm i $ npm run dev </code></pre><p>上述骨架会生成一个极简版的示例，更完整的示例参见：<a href="https://github.com/eggjs/examples/tree/master/hackernews-async-ts">eggjs/examples/hackernews-async-ts</a></p> <p><img src="https://user-images.githubusercontent.com/227713/38358019-bf7890fa-38f6-11e8-8955-ea072ac6dc8c.gif" alt></p> <hr> <h2>目录规范</h2> <p><strong>一些约束：</strong></p> <ul> <li>Egg 目前没有计划使用 TS 重写。</li> <li>Egg 以及它对应的插件，会提供对应的 <code>index.d.ts</code> 文件方便开发者使用。</li> <li>TypeScript 只是其中一种社区实践，我们通过工具链给予一定程度的支持。</li> </ul> <p>整体目录结构上跟 Egg 普通项目没啥区别:</p> <ul> <li><code>typescript</code> 代码风格，后缀名为 <code>ts</code></li> <li><code>typings</code> 目录用于放置 <code>d.ts</code> 文件（大部分会自动生成）</li> </ul> <pre class="prettyprint language-bash"><code>showcase ├── app │ ├── controller │ │ └── home.ts │ ├── service │ │ └── news.ts │ └── router.ts ├── config │ ├── config.default.ts │ ├── config.local.ts │ ├── config.prod.ts │ └── plugin.ts ├── test │ └── **&#x2F;*.test.ts ├── typings │ └── **&#x2F;*.d.ts ├── README.md ├── package.json ├── tsconfig.json └── tslint.json </code></pre><h3>Controller</h3> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; app&#x2F;controller&#x2F;home.ts import { Controller } from &#x27;egg&#x27;; export default class HomeController extends Controller { public async index() { const { ctx, service } = this;    const page = ctx.query.page;    const result = await service.news.list(page);    await ctx.render(&#x27;home.tpl&#x27;, result);  } } </code></pre><h3>Router</h3> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; app&#x2F;router.ts import { Application } from &#x27;egg&#x27;; export default (app: Application) =&gt; { const { router, controller } = app; router.get(&#x27;&#x2F;&#x27;, controller.home.index); }; </code></pre><h3>Service</h3> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; app&#x2F;service&#x2F;news.ts import { Service } from &#x27;egg&#x27;; export default class NewsService extends Service { public async list(page?: number): Promise&lt;NewsItem[]&gt; { return [];  } } export interface NewsItem { id: number; title: string; } </code></pre><h3>Middleware</h3> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; app&#x2F;middleware&#x2F;robot.ts import { Context } from &#x27;egg&#x27;; export default function robotMiddleware() { return async (ctx: Context, next: any) =&gt; { await next(); }; } </code></pre><p>因为 Middleware 定义是支持入参的，第一个参数为同名的 Config，如有需求，可以用完整版：</p> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; app&#x2F;middleware&#x2F;news.ts import { Context, Application } from &#x27;egg&#x27;; import { BizConfig } from &#x27;..&#x2F;..&#x2F;config&#x2F;config.default&#x27;; &#x2F;&#x2F; 注意，这里必须要用 [&#x27;news&#x27;] 而不能用 .news，因为 BizConfig 是 type，不是实例 export default function newsMiddleware(options: BizConfig[&#x27;news&#x27;], app: Application) { return async (ctx: Context, next: () =&gt; Promise&lt;any&gt;) =&gt; { console.info(options.serverUrl); await next(); }; } </code></pre><h3>Extend</h3> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; app&#x2F;extend&#x2F;context.ts import { Context } from &#x27;egg&#x27;; export default { isAjax(this: Context) { return this.get(&#x27;X-Requested-With&#x27;) === &#x27;XMLHttpRequest&#x27;; }, } &#x2F;&#x2F; app.ts export default app =&gt; { app.beforeStart(async () =&gt; { await Promise.resolve(&#x27;egg + ts&#x27;); }); }; </code></pre><h3>Config</h3> <p><code>Config</code> 这块稍微有点复杂，因为要支持：</p> <ul> <li>在 Controller，Service 那边使用配置，需支持多级提示，并自动关联。</li> <li>Config 内部， <code>config.view = {}</code> 的写法，也应该支持提示。</li> <li>在 <code>config.{env}.ts</code> 里可以用到 <code>config.default.ts</code> 自定义配置的提示。</li> </ul> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; app&#x2F;config&#x2F;config.default.ts import { EggAppInfo, EggAppConfig, PowerPartial } from &#x27;egg&#x27;; &#x2F;&#x2F; 提供给 config.{env}.ts 使用 export type DefaultConfig = PowerPartial&lt;EggAppConfig &amp; BizConfig&gt;; &#x2F;&#x2F; 应用本身的配置 Scheme export interface BizConfig { news: { pageSize: number; serverUrl: string; }; } export default (appInfo: EggAppInfo) =&gt; { const config = {} as PowerPartial&lt;EggAppConfig&gt; &amp; BizConfig; &#x2F;&#x2F; 覆盖框架，插件的配置 config.keys = appInfo.name + &#x27;123456&#x27;; config.view = { defaultViewEngine: &#x27;nunjucks&#x27;, mapping: { &#x27;.tpl&#x27;: &#x27;nunjucks&#x27;, }, }; &#x2F;&#x2F; 应用本身的配置 config.news = { pageSize: 30, serverUrl: &#x27;https:&#x2F;&#x2F;hacker-news.firebaseio.com&#x2F;v0&#x27;, }; return config; }; </code></pre><p>简单版：</p> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; app&#x2F;config&#x2F;config.local.ts import { DefaultConfig } from &#x27;.&#x2F;config.default&#x27;; export default () =&gt; { const config: DefaultConfig = {}; config.news = { pageSize: 20, }; return config; }; </code></pre><p>备注：</p> <ul> <li>TS 的 <code>Conditional Types</code> 是我们能完美解决 Config 提示的关键。</li> <li>有兴趣的可以看下 <a href="https://github.com/eggjs/egg/blob/master/index.d.ts">egg/index.d.ts</a> 里面的 <code>PowerPartial</code> 实现。</li> </ul> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; {egg}&#x2F;index.d.ts type PowerPartial&lt;T&gt; = {  [U in keyof T]?: T[U] extends {}   ? PowerPartial&lt;T[U]&gt;   : T[U] }; </code></pre><h3>Plugin</h3> <pre class="prettyprint language-javascript"><code>&#x2F;&#x2F; config&#x2F;plugin.ts import { EggPlugin } from &#x27;egg&#x27;; const plugin: EggPlugin = { static: true, nunjucks: {   enable: true,   package: &#x27;egg-view-nunjucks&#x27;,  }, }; export default plugin; </code></pre><h3>Typings</h3> <p>该目录为 TS 的规范，在里面的 <code>\*\*/\*.d.ts</code> 文件将被自动识别。</p> <ul> <li>开发者需要手写的建议放在 <code>typings/index.d.ts</code> 中。</li> <li>工具会自动生成 <code>typings/{app,config}/\*\*.d.ts</code> ，请勿自行修改，避免被覆盖。（见下文）</li> </ul> <blockquote> <p>现在 Egg 自带的 d.ts 还有不少可以优化的空间，遇到的同学欢迎提 issue 或 PR。</p> </blockquote> <hr> <h2>开发期</h2> <h3>ts-node</h3> <p><code>egg-bin</code> 已经内建了 ts-node ，<code>egg loader</code> 在开发期会自动加载 <code>\*.ts</code> 并内存编译。</p> <p>目前已支持 <code>dev</code> / <code>debug</code> / <code>test</code> / <code>cov</code> 。</p> <p>开发者仅需简单配置下 <code>package.json</code> ：</p> <pre class="prettyprint language-json"><code>{ &quot;name&quot;: &quot;showcase&quot;, &quot;egg&quot;: { &quot;typescript&quot;: true } } </code></pre><h3>egg-ts-helper</h3> <p>由于 Egg 的自动加载机制，导致 TS 无法静态分析依赖，关联提示。</p> <p>幸亏 TS 黑魔法比较多，我们可以通过 TS 的 <a href="https://www.typescriptlang.org/docs/handbook/declaration-merging.html">Declaration Merging</a> 编写 <code>d.ts</code> 来辅助。</p> <p>譬如 <code>app/service/news.ts</code> 会自动挂载为 <code>ctx.service.news</code> ，通过如下写法即识别到：</p> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; typings&#x2F;app&#x2F;service&#x2F;index.d.ts import News from &#x27;..&#x2F;..&#x2F;..&#x2F;app&#x2F;service&#x2F;News&#x27;; declare module &#x27;egg&#x27; { interface IService { news: News; } } </code></pre><p>手动写这些文件，未免有点繁琐，因此我们提供了 <a href="https://github.com/whxaxes/egg-ts-helper">egg-ts-helper</a> 工具来自动分析源码生成对应的 <code>d.ts</code> 文件。</p> <p>只需配置下 <code>package.json</code> :</p> <pre class="prettyprint language-javascript"><code>{  &quot;devDependencies&quot;: { &quot;egg-ts-helper&quot;: &quot;^1&quot;  }, &quot;scripts&quot;: { &quot;dev&quot;: &quot;egg-bin dev -r egg-ts-helper&#x2F;register&quot;, &quot;test-local&quot;: &quot;egg-bin test -r egg-ts-helper&#x2F;register&quot;, &quot;clean&quot;: &quot;ets clean&quot; } } </code></pre><p>开发期将自动生成对应的 <code>d.ts</code> 到 <code>typings/{app,config}/</code> 下，<strong>请勿自行修改，避免被覆盖</strong>。</p> <blockquote> <p>后续该工具也会考虑支持 js 版 egg 应用的分析，可以一定程度上提升 js 开发体验。</p> </blockquote> <h3>Unit Test &amp;&amp; Cov</h3> <p>单元测试当然少不了：</p> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; test&#x2F;app&#x2F;service&#x2F;news.test.ts import * as assert from &#x27;assert&#x27;; import { Context } from &#x27;egg&#x27;; import { app } from &#x27;egg-mock&#x2F;bootstrap&#x27;; describe(&#x27;test&#x2F;app&#x2F;service&#x2F;news.test.js&#x27;, () =&gt; { let ctx: Context; before(async () =&gt; { ctx = app.mockContext(); }); it(&#x27;list()&#x27;, async () =&gt; { const list = await ctx.service.news.list(); assert(list.length === 30); }); }); </code></pre><p>运行命令也跟之前一样，并内置了 <code>错误堆栈和覆盖率</code> 的支持：</p> <pre class="prettyprint language-json"><code>{ &quot;name&quot;: &quot;showcase&quot;, &quot;scripts&quot;: { &quot;test&quot;: &quot;npm run lint -- --fix &amp;&amp; npm run test-local&quot;, &quot;test-local&quot;: &quot;egg-bin test -r egg-ts-helper&#x2F;register&quot;, &quot;cov&quot;: &quot;egg-bin cov -r egg-ts-helper&#x2F;register&quot;, &quot;lint&quot;: &quot;tslint .&quot; } } </code></pre><h3>Debug</h3> <p>断点调试跟之前也没啥区别，会自动通过 <code>sourcemap</code> 断点到正确的位置。</p> <pre class="prettyprint language-json"><code>{ &quot;name&quot;: &quot;showcase&quot;, &quot;scripts&quot;: { &quot;debug&quot;: &quot;egg-bin debug -r egg-ts-helper&#x2F;register&quot;, &quot;debug-test&quot;: &quot;npm run test-local -- --inspect&quot; } } </code></pre><ul> <li><a href="https://eggjs.org/zh-cn/core/development.html#%E4%BD%BF%E7%94%A8-vscode-%E8%BF%9B%E8%A1%8C%E8%B0%83%E8%AF%95">使用 VSCode 进行调试</a></li> <li><a href="https://github.com/atian25/blog/issues/25">VSCode 调试 Egg 完美版 - 进化史</a></li> </ul> <hr> <h2>部署</h2> <h3>构建</h3> <ul> <li>正式环境下，我们更倾向于把 ts 构建为 js ，建议在 <code>ci</code> 上构建并打包。</li> </ul> <p>配置 <code>package.json</code> :</p> <pre class="prettyprint language-json"><code>{ &quot;egg&quot;: { &quot;typescript&quot;: true }, &quot;scripts&quot;: { &quot;start&quot;: &quot;egg-scripts start --title=egg-server-showcase&quot;, &quot;stop&quot;: &quot;egg-scripts stop --title=egg-server-showcase&quot;, &quot;tsc&quot;: &quot;ets &amp;&amp; tsc -p tsconfig.json&quot;, &quot;ci&quot;: &quot;npm run lint &amp;&amp; npm run cov &amp;&amp; npm run tsc&quot;, &quot;clean&quot;: &quot;ets clean&quot; } } </code></pre><p>对应的 <code>tsconfig.json</code> :</p> <pre class="prettyprint language-json"><code>{ &quot;compileOnSave&quot;: true, &quot;compilerOptions&quot;: { &quot;target&quot;: &quot;es2017&quot;, &quot;module&quot;: &quot;commonjs&quot;, &quot;strict&quot;: true, &quot;noImplicitAny&quot;: false, &quot;experimentalDecorators&quot;: true, &quot;emitDecoratorMetadata&quot;: true, &quot;charset&quot;: &quot;utf8&quot;, &quot;allowJs&quot;: false, &quot;pretty&quot;: true, &quot;noEmitOnError&quot;: false, &quot;noUnusedLocals&quot;: true, &quot;noUnusedParameters&quot;: true, &quot;allowUnreachableCode&quot;: false, &quot;allowUnusedLabels&quot;: false, &quot;strictPropertyInitialization&quot;: false, &quot;noFallthroughCasesInSwitch&quot;: true, &quot;skipLibCheck&quot;: true, &quot;skipDefaultLibCheck&quot;: true, &quot;inlineSourceMap&quot;: true, &quot;importHelpers&quot;: true }, &quot;exclude&quot;: [ &quot;app&#x2F;public&quot;, &quot;app&#x2F;web&quot;, &quot;app&#x2F;views&quot; ] } </code></pre><p><strong>注意：</strong></p> <ul> <li><strong>当有同名的 ts 和 js 文件时，egg 会优先加载 js 文件。</strong></li> <li>因此在开发期， <code>egg-ts-helper</code> 会自动调用清除同名的 <code>js</code> 文件，也可 <code>npm run clean</code> 手动清除。</li> </ul> <h3>错误堆栈</h3> <p>线上服务的代码是经过编译后的 js，而我们期望看到的错误堆栈是指向 TS 源码。 因此：</p> <ul> <li>在构建的时候，需配置 <code>inlineSourceMap: true</code> 在 js 底部插入 sourcemap 信息。</li> <li>在 <code>egg-scripts</code> 内建了处理，会自动纠正为正确的错误堆栈，应用开发者无需担心。</li> </ul> <p>具体内幕参见：</p> <ul> <li><a href="https://zhuanlan.zhihu.com/p/26267678">https://zhuanlan.zhihu.com/p/26267678</a></li> <li><a href="https://github.com/eggjs/egg-scripts/pull/19">https://github.com/eggjs/egg-scripts/pull/19</a></li> </ul> <hr> <h2>插件/框架开发指南</h2> <p><strong>指导原则：</strong></p> <ul> <li>不建议使用 TS 直接开发插件/框架，发布到 npm 的插件应该是 js 形式。</li> <li>当你开发了一个插件/框架后，需要提供对应的 <code>index.d.ts</code> 。</li> <li>通过 <a href="https://www.typescriptlang.org/docs/handbook/declaration-merging.html">Declaration Merging</a> 将插件/框架的功能注入到 Egg 中。</li> <li>都挂载到 <code>egg</code> 这个 module，不要用上层框架。</li> </ul> <h3>插件</h3> <p>可以参考 <code>egg-ts-helper</code> 自动生成的格式</p> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; {plugin_root}&#x2F;index.d.ts import News from &#x27;..&#x2F;..&#x2F;..&#x2F;app&#x2F;service&#x2F;News&#x27;; declare module &#x27;egg&#x27; { &#x2F;&#x2F; 扩展 service interface IService {    news: News; } &#x2F;&#x2F; 扩展 app interface Application { } &#x2F;&#x2F; 扩展 context interface Context { } &#x2F;&#x2F; 扩展你的配置 interface EggAppConfig { } &#x2F;&#x2F; 扩展自定义环境  type EggEnvType = &#x27;local&#x27; | &#x27;unittest&#x27; | &#x27;prod&#x27; | &#x27;sit&#x27;; } </code></pre><h3>上层框架</h3> <p>定义：</p> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; {framework_root}&#x2F;index.d.ts import * as Egg from &#x27;egg&#x27;; &#x2F;&#x2F; 将该上层框架用到的插件 import 进来 import &#x27;my-plugin&#x27;; declare module &#x27;egg&#x27; { &#x2F;&#x2F; 跟插件一样拓展 egg ... } &#x2F;&#x2F; 将 Egg 整个 export 出去 export = Egg; </code></pre><p>开发者使用的时候，可以直接 import 你的框架：</p> <pre class="prettyprint language-typescript"><code>&#x2F;&#x2F; app&#x2F;service&#x2F;news.ts &#x2F;&#x2F; 开发者引入你的框架，也可以使用到提示到所有 Egg 的提示 import { Service } from &#x27;duck-egg&#x27;; export default class NewsService extends Service { public async list(page?: number): Promise&lt;NewsItem[]&gt; { return [];  } } </code></pre><hr> <h2>其他</h2> <h3>TypeScript</h3> <p>最低要求 2.8+ 版本，依赖于新支持的 <a href="https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html">Conditional Types</a> ，黑魔法中的黑魔法。</p> <pre class="prettyprint language-bash"><code>$ npm i typescript tslib --save-dev $ npx tsc -v Version 2.8.1 </code></pre><h3>VSCode</h3> <p>由于 VSCode 自带的 TypeScript 版本还未更新，需手动切换：</p> <pre class="prettyprint language-bash"><code>F1 -&gt; TypeScript: Select TypeScript Version -&gt; Use Workspace Version 2.8.1 </code></pre><p>之前为了不显示编译后的 js 文件，会配置 <code>.vscode/settings.json</code> ，但由于我们开发期已经不再构建 js，且 js 和 ts 同时存在时会优先加载 js，因为__建议__「<strong>不要」配置此项</strong>。</p> <pre class="prettyprint language-javascript"><code>&#x2F;&#x2F; .vscode&#x2F;settings.json { &quot;files.exclude&quot;: { &quot;**&#x2F;*.map&quot;: true， &#x2F;&#x2F; 光注释掉 when 这行无效，需全部干掉 &#x2F;&#x2F; &quot;**&#x2F;*.js&quot;: { &#x2F;&#x2F; &quot;when&quot;: &quot;$(basename).ts&quot; &#x2F;&#x2F; } }, &quot;typescript.tsdk&quot;: &quot;node_modules&#x2F;typescript&#x2F;lib&quot; } </code></pre><h3>package.json</h3> <p>完整的配置如下：</p> <pre class="prettyprint language-javascript"><code>{ &quot;name&quot;: &quot;hackernews-async-ts&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;description&quot;: &quot;hackernews showcase using typescript &amp;&amp; egg&quot;, &quot;private&quot;: true, &quot;egg&quot;: { &quot;typescript&quot;: true }, &quot;scripts&quot;: { &quot;start&quot;: &quot;egg-scripts start --title=egg-server-showcase&quot;, &quot;stop&quot;: &quot;egg-scripts stop --title=egg-server-showcase&quot;, &quot;dev&quot;: &quot;egg-bin dev -r egg-ts-helper&#x2F;register&quot;, &quot;debug&quot;: &quot;egg-bin debug -r egg-ts-helper&#x2F;register&quot;, &quot;test-local&quot;: &quot;egg-bin test -r egg-ts-helper&#x2F;register&quot;, &quot;test&quot;: &quot;npm run lint -- --fix &amp;&amp; npm run test-local&quot;, &quot;cov&quot;: &quot;egg-bin cov -r egg-ts-helper&#x2F;register&quot;, &quot;tsc&quot;: &quot;ets &amp;&amp; tsc -p tsconfig.json&quot;, &quot;ci&quot;: &quot;npm run lint &amp;&amp; npm run tsc &amp;&amp; egg-bin cov --no-ts&quot;, &quot;autod&quot;: &quot;autod&quot;, &quot;lint&quot;: &quot;tslint .&quot;, &quot;clean&quot;: &quot;ets clean&quot; }, &quot;dependencies&quot;: { &quot;egg&quot;: &quot;^2.6.0&quot;, &quot;egg-scripts&quot;: &quot;^2.6.0&quot; }, &quot;devDependencies&quot;: { &quot;@types&#x2F;mocha&quot;: &quot;^2.2.40&quot;, &quot;@types&#x2F;node&quot;: &quot;^7.0.12&quot;, &quot;@types&#x2F;supertest&quot;: &quot;^2.0.0&quot;, &quot;autod&quot;: &quot;^3.0.1&quot;, &quot;autod-egg&quot;: &quot;^1.1.0&quot;, &quot;egg-bin&quot;: &quot;^4.6.3&quot;, &quot;egg-mock&quot;: &quot;^3.16.0&quot;, &quot;egg-ts-helper&quot;: &quot;^1.5.0&quot;, &quot;tslib&quot;: &quot;^1.9.0&quot;, &quot;tslint&quot;: &quot;^4.0.0&quot;, &quot;typescript&quot;: &quot;^2.8.1&quot; }, &quot;engines&quot;: { &quot;node&quot;: &quot;&gt;=8.9.0&quot; } } </code></pre><hr> <h2>高级用法</h2> <h3>装饰器</h3> <p>通过 TS 的装饰器，可以实现 <code>依赖注入</code> / <code>参数校验</code>  / <code>日志前置处理</code> 等。</p> <pre class="prettyprint language-typescript"><code>import { Controller } from &#x27;egg&#x27;; export default class NewsController extends Controller { @GET(&#x27;&#x2F;news&#x2F;:id&#x27;) public async detail() { const { ctx, service } = this; const id = ctx.params.id; const result = await service.news.get(id); await ctx.render(&#x27;detail.tpl&#x27;, result); } } </code></pre><p>目前装饰器属于锦上添花，因为暂不做约定。 交给开发者自行实践，期望能看到社区优秀实践反馈，也可以参考下：<a href="https://github.com/shepherdwind/egg-di">egg-di</a> 。</p> <blockquote> <p>友情提示：要适度，不要滥用。</p> </blockquote> <h3>tegg</h3> <p>未来可能还会封装一个上层框架 <a href="https://github.com/eggjs/tegg">tegg</a>，具体 RFC 还没出，还在孕育中，敬请期待。</p> <p>名字典故：<code>typescript + egg</code> -&gt; <code>ts-egg</code> -&gt; <code>tea egg</code> -&gt; <code>茶叶蛋</code></p> <p>Logo：<img src="https://lark-assets-prod.oss-cn-hangzhou.aliyuncs.com/2018/png/1301f42d-8ca6-4f8f-a07f-10c5043df302.png" alt="image.png | left | 225x225"></p> <hr> <h2>写在最后</h2> <p>早在一年多前，阿里内部就有很多 BU 在实践 TS + Egg 了。</p> <p>随着 TS 的完善，终于能完美解决我们的开发者体验问题，也因此才有了本文。</p> <p>本来以为只需要 2 个 PR 搞定的，结果变为 Hail Hydra，好长的 List：<a href="https://github.com/eggjs/egg/issues/2272">[RFC] TypeScript tool support</a> 。</p> <p>终于完成了 <a href="https://zhuanlan.zhihu.com/p/31640541?refer=eggjs">Egg 2.0</a> 发布时的一大承诺，希望能通过这套最佳实践规范，提升社区开发者的研发体验。</p> </div>",
+title: "当 Egg 遇到 TypeScript，收获茶叶蛋一枚",
+last_reply_at: "2018-04-21T17:30:23.138Z",
+good: true,
+top: false,
+reply_count: 26,
+visit_count: 2238,
+create_at: "2018-04-05T09:31:10.587Z",
+author: {
+loginname: "atian25",
+avatar_url: "https://avatars2.githubusercontent.com/u/227713?v=4&s=120"
+}
+},
+{
+id: "5a3dc9ff9807389a1809f64a",
+author_id: "5997f817f36051a45246c171",
+tab: "ask",
+content: "<div class="markdown-text"><p>听说有一个方法是如果已经有了相同的结果，则不更新．</p> <pre class="prettyprint"><code>	Friendlink.find( { linkname: new_linkname }, null, { limit: 1 }, function(err,result){ if(err) throw err; if(result.length){ res.send(&#x27;相同的链接名已经存在！&#x27;); }else{ Friendlink.update( { linkname: initial_linkname }, { linkname: new_linkname, linkurl: new_linkurl }, { upsert: true }, function(err){ if(err) throw err; res.send(&#x27;Success to Update!&#x27;); } ); } } );</code></pre></div>",
+title: "如何把这段mongoose缩减得更加优美？",
+last_reply_at: "2018-04-21T15:03:23.834Z",
+good: false,
+top: false,
+reply_count: 6,
+visit_count: 1082,
+create_at: "2017-12-23T03:14:07.717Z",
+author: {
+loginname: "DoubleCG",
+avatar_url: "https://avatars1.githubusercontent.com/u/19707468?v=4&s=120"
+}
+},
+{
+id: "5a1962da6190c8912ebacd61",
+author_id: "5997f817f36051a45246c171",
+tab: "ask",
+content: "<div class="markdown-text"><p>如题</p> </div>",
+title: "如何了解session的内存占用和session存取效率与数据库存取效率的差异？",
+last_reply_at: "2018-04-21T15:02:32.308Z",
+good: false,
+top: false,
+reply_count: 4,
+visit_count: 1101,
+create_at: "2017-11-25T12:32:26.629Z",
+author: {
+loginname: "DoubleCG",
+avatar_url: "https://avatars1.githubusercontent.com/u/19707468?v=4&s=120"
+}
+},
+{
+id: "5a3ba5848230827a18293965",
+author_id: "5997f817f36051a45246c171",
+tab: "ask",
+content: "<div class="markdown-text"><p>我所知道的只有limit, skip, 从最新的数据往前查询的呢？</p> </div>",
+title: "mongoose find 第三个参数对象的全部参数是什么？",
+last_reply_at: "2018-04-21T14:54:22.629Z",
+good: false,
+top: false,
+reply_count: 3,
+visit_count: 623,
+create_at: "2017-12-21T12:13:56.683Z",
+author: {
+loginname: "DoubleCG",
+avatar_url: "https://avatars1.githubusercontent.com/u/19707468?v=4&s=120"
+}
+},
+{
+id: "5ad982b8a7d228c16b9870da",
+author_id: "5ad98222464b1bfa6b4257bd",
+tab: "ask",
+content: "<div class="markdown-text"><p>请问一下各位大神,nodejs写后端有什么优势,比如node跟java比呢,现在有些公司用node.js,用的多吗?谢谢</p> </div>",
+title: "请问一下各位大神,nodejs写后端有什么优势,比如node跟java比呢?",
+last_reply_at: "2018-04-21T14:15:13.360Z",
+good: false,
+top: false,
+reply_count: 8,
+visit_count: 538,
+create_at: "2018-04-20T06:03:36.650Z",
+author: {
+loginname: "007jiangchao",
+avatar_url: "https://avatars0.githubusercontent.com/u/24563076?v=4&s=120"
+}
+},
+{
+id: "5ad5e0d3464b1bfa6b4254ad",
+author_id: "5ad5e0773edb2aff6be85b68",
+tab: "ask",
+content: "<div class="markdown-text"><p>请教，node.js 有没有办法调用 VB 语言写的 的动态库 dll</p> </div>",
+title: "请教，node.js 有没有办法调用 VB 语言写的 的动态库 dll",
+last_reply_at: "2018-04-21T13:45:07.479Z",
+good: false,
+top: false,
+reply_count: 7,
+visit_count: 694,
+create_at: "2018-04-17T11:56:03.854Z",
+author: {
+loginname: "wdmlele",
+avatar_url: "https://avatars3.githubusercontent.com/u/38434818?v=4&s=120"
+}
+},
+{
+id: "5ad064a6464b1bfa6b4250f1",
+author_id: "526bcfcb5ed0dc3e4b2120f4",
+tab: "ask",
+content: "<div class="markdown-text"><p><img src="//dn-cnode.qbox.me/FhT74yqL50DmR32o-rDpdR5BAayO" alt="image.png"></p> <p><a href="https://www.oschina.net/news/93428/mongodb-4-0-released">https://www.oschina.net/news/93428/mongodb-4-0-released</a></p> </div>",
+title: "mongodb要支持事务了，大家怎么看呢？",
+last_reply_at: "2018-04-21T13:36:09.153Z",
+good: false,
+top: false,
+reply_count: 14,
+visit_count: 1453,
+create_at: "2018-04-13T08:04:54.591Z",
+author: {
+loginname: "whw1988",
+avatar_url: "//gravatar.com/avatar/d9e8e7d540309dfa1ca67e804ad92b52?size=48"
+}
+},
+{
+id: "5ad83eac3edb2aff6be85d27",
+author_id: "53e1802fbd3cc3e50ba9e311",
+tab: "share",
+content: "<div class="markdown-text"><p>今天在群里有人讨论方老师的文章<a href="https://zhuanlan.zhihu.com/p/35848291">《我不是很懂 Node.js 社区的 DRY 文化》</a>，我也看了一遍，槽点太多，不知道如何下笔。</p> <p>方老师分析了几个依赖最多的 npm 包，每个都只有不到百行代码。</p> <p>比如 <a href="https://www.npmjs.com/package/is-odd">is-odd</a>，每周下载 300 万次，但是只有核心 5 行代码。而且依赖了每周下载 1000 万次的 <a href="https://github.com/jonschlinkert/is-number">is-number</a> 库。</p> <p>得出了一个结论：</p> <blockquote> <ol> <li>原来有这么多 JS 程序员不会判断奇数</li> <li>只要 markdown 写得漂亮，就能迷倒 JS 程序员</li> <li><code>1 + '1'</code> 的问题一直在困扰 JS 程序员，我要不要写一个 <code>add()</code> 库解决这个问题呢</li> </ol> </blockquote> <p>首先第一条:</p> <blockquote> <p>原来有这么多 JS 程序员不会判断奇数。</p> </blockquote> <p>其实不仅仅是 JS 程序员，大部分程序员都不会准确的判断奇数。</p> <p>你写</p> <pre class="prettyprint language-js"><code>const isOdd = x =&gt; x % 2 === 1; </code></pre><p>这是小学的知识，除以 2，如果除不尽（有余数）那么就是奇数。正因为知识点很简单，所以给人一种随便一个程序员都会判断的错觉。</p> <p>现在我们假设用户传入的参数一定是数字。</p> <p>即便如此，这个函数依然不能正确判断奇数。因为<code>-3 % 2</code> 的结果是 <code>-1</code>。</p> <p>有人说那就这么写：</p> <pre class="prettyprint language-js"><code>const isOdd = x =&gt; x % 2 !== 0; </code></pre><p>随便一个小数就被判断为奇数了。更不用说浮点数中的妖怪 <code>NaN</code> 和 <code>Infinity</code> 了。</p> <p>那么是不是对 <code>NaN</code> 和 <code>Infinity</code> 直接返回 falst，然后把 <code>-1</code> 的判断也加上去就行了：</p> <pre class="prettyprint language-js"><code>const isOdd = x =&gt; x % 2 === 1 || x % 2 === -1; </code></pre><p>也是图样</p> <pre class="prettyprint language-js"><code>9007199254740991 % 2 === 1 9007199254740992 % 2 === 0 9007199254740993 % 2 === 0 9007199254740994 % 2 === 0 9007199254740995 % 2 === 0 &#x2F;&#x2F; 后面的都是 0 </code></pre><p>为什么从 <code>9007199254740991</code> 开始呢？因为这个值是 <code>Number.MAX_SAFE_INTEGER</code>，是 <code>2 ** 53 - 1</code>。</p> <p>那回过头来看看 is-odd 库是怎么实现的呢？</p> <pre class="prettyprint language-js"><code>!!(~~i &amp; 1) </code></pre><p><code>~~i</code> 用于把字符串转换为整数，和 <code>1</code> 进行<strong>按位与</strong>运算判断最后一位是 <code>1</code> 还是 <code>0</code>。</p> <p>很遗憾，也有问题。😔 因为在字符串转整数的时候精度就丢失了。</p> <p>如果有谁想造轮子，可以写一个 better-is-odd，可以把字符串 <code>'9007199254740995'</code> 判断为奇数，但是对于数字 <code>9007199254740995</code> 也是无能为力。等着 <a href="https://github.com/tc39/proposal-bigint">proposal-bigint</a> 提案吧。</p> <p>不仅仅是判断奇数，单纯的判断一个字符串是不是数字就可以难倒一大片 JS 程序员（其它语言程序员也一样）。</p> <p><a href="https://github.com/jonschlinkert/is-number">is-number</a> 库核心代码不到 10 行。方老师只关注了库的源代码，但是我们如果看一看他的 <a href="https://github.com/jonschlinkert/is-number/blob/master/test.js">test case</a>，就决定要使用这个库了。</p> <p>作者为这 10 行代码写了 108 行的测试用例，来保证这个函数的功能是正确的。</p> <p>我在之前的文章<strong>百行代码，千行测试</strong>里面曾写过：</p> <blockquote> <p>不要重复发明轮子。</p> <p>很多大牛推荐我们“造轮子”，但是造轮子的目的是为了学习，而不是使用，尤其不要用在生产环境。</p> <p>造个轮子很简单，但是你非要把自己的轮子安在汽车上，开上路，那肯定是一个安全隐患。</p> <p>有很多人会说，“既然自己可以写一个，为什么非要用别人的？” 还有人觉得，有些非常小的功能不需要使用别人的。</p> <p>很多人还会借此吐槽 leftpad 模块，但是平心而论，你自己能徒手这一个没有 bug 且高性能的 leftpad 函数吗？</p> <p>前几天我们项目组就遇到了一次，其实功能很简单，一个页面分享出去，并使用 url 携带参数。比如：</p> <p>aaa.html?id=123456</p> <p>看似很简单的一个需求，但是真正自己写一个却不简单。</p> <ol> <li>查找“=”字符，然后截取后面的？</li> <li>split(&quot;=&quot;)，然后去第二个</li> <li>……</li> </ol> <p>不到 10 行代码就写完了。</p> <p>第一次分享到微信是正常，把分享出去的页面再次转发分享，页面错误。</p> <p>因为微信会在 URL 后面添加一些额外的参数，同样，不同的平台都会有不同形式的添加参数方式，有的加 <code>&amp;</code>，有的加 <code>#</code>，不论加什么都会导致解析的失败。</p> <p>归根结底是我们写的解析函数有 bug，我们重新造了一个有 bug 的轮子。</p> <p>解决方式就是:</p> <p><code>npm i qs</code></p> <p>麻雀虽小，五脏俱全。看看 github 源码，“<strong>百行代码，千行测试</strong>”。绝对比自己写的代码靠谱。</p> <p>我写这篇文章不是为了推荐这个 qs 库，而是告诉大家不要重复造轮子用在生产环境，平时大家多造轮子用来学习。</p> </blockquote> <p>在回过头来看看 is-number 库，不仅仅有 100 多行的 test case，还有一个目录 benchmark。这里面的代码我没有数，但是光看文件数量就有 10 个以上。也就是说作者不仅仅保证了这个函数的运行结果没有问题，更保证了这个函数的性能。</p> <p>我们为什么要使用这个库，因为作者为了他的 10 行代码，写了几百行的其它代码来保证质量。</p> <p>作者 9 天前还发布了新版，20 天前还优化了字符串转数字的性能。</p> <p>再看看方老师说的第二条：</p> <blockquote> <p>只要 markdown 写得漂亮，就能迷倒 JS 程序员。 这些包的 markdown 代码远远多于 JS 代码，可能它们的 markdown 更值得我们学习</p> </blockquote> <p>Redux 号称<strong>百行代码，千行文档</strong>，一共就导出了 5 个函数。</p> <p>而且 markdown 写的漂亮也是很有必要的，否则你不知道下面的代码到底输出什么</p> <pre class="prettyprint language-js"><code>isOdd(&#x27; 12&#x27;) isOdd(&#x27;一&#x27;) isOdd(&#x27;①&#x27;) isOdd(&#x27;Odd&#x27;) </code></pre><p>第三条：</p> <blockquote> <p><code>1 + '1'</code> 的问题一直在困扰 JS 程序员，我要不要写一个 <code>add()</code> 库解决这个问题呢</p> </blockquote> <p>不能。</p> <p>我是认真的！因为 npm 已经有一个 <code>add</code> 库了，名字被别人占用了，所以你只能叫别的名字了。</p> <p>虽然是一个小众的库，但是每周也有近一万的下载量。这个库实现了 JavaScript 中的浮点数加法的 Rump-Ogita-Oishi 算法。</p> <p>比如有如下浮点数：</p> <pre class="prettyprint language-js"><code>const nums = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7] </code></pre><p>把这些数累加</p> <pre class="prettyprint language-js"><code>nums.reduce((a,b) =&gt; a+b); </code></pre><p>结果是：</p> <pre class="prettyprint"><code>15.299999999999999 </code></pre><p>而使用 Rump-Ogita-Oishi 算法：</p> <pre class="prettyprint language-js"><code>add(nums) === 15.3 </code></pre><p>再看看 benchmark (OS X 10.9.4, 2 GHz Core i7, 8GB DDR3 1600Mhz RAM)：</p> <pre class="prettyprint"><code>add-precise x 1,400,712 ops&#x2F;sec ±3.31% (89 runs sampled) add-dumb x 24,268,034 ops&#x2F;sec ±3.96% (80 runs sampled) native x 94,957,251 ops&#x2F;sec ±2.94% (85 runs sampled) native is ~67.8 times faster than add-precise </code></pre><p>最后再重申一般：<strong>Don’t Repeat Yourself</strong>。</p> </div>",
+title: "驳《我不是很懂 Node.js 社区的 DRY 文化》",
+last_reply_at: "2018-04-21T12:36:44.148Z",
+good: true,
+top: false,
+reply_count: 32,
+visit_count: 2564,
+create_at: "2018-04-19T07:01:00.349Z",
+author: {
+loginname: "justjavac",
+avatar_url: "https://avatars1.githubusercontent.com/u/359395?v=4&s=120"
+}
+},
+{
+id: "5ad88e19ba60fcc66b7b862a",
+author_id: "578b42aa6d3f2b2014113efe",
+tab: "share",
+content: "<div class="markdown-text"><p>大意： 给任意三个整数a b c 操作一：任意取其中两个数+1 操作二：任意取其中一个数+2 求最少的操作步骤数使得最后三个数相等</p> <p>如 输入 2 4 5 输出 2 (抱歉刚才有事出去了，，然后回来时候以为自己写完帖子了，，就发了。。。sb了。。。)</p> </div>",
+title: "牛客网看到的爱奇艺前端实习笔试编程题",
+last_reply_at: "2018-04-21T12:28:09.115Z",
+good: false,
+top: false,
+reply_count: 6,
+visit_count: 549,
+create_at: "2018-04-19T12:39:53.915Z",
+author: {
+loginname: "vanishcode",
+avatar_url: "https://avatars0.githubusercontent.com/u/20496444?v=4&s=120"
+}
+},
+{
+id: "5ad1fa5e3edb2aff6be85819",
+author_id: "5a93abbb8d6e16e56bb80906",
+tab: "ask",
+content: "<div class="markdown-text"><p><img src="//dn-cnode.qbox.me/FnAtT-dc_2XTJjjNxdxSK8Kswxg9" alt="QQ图片20180414201332.png"> 问题困扰我有段时间了，我用webstorm2018写ts代码parseInt,Number,JSON.parse等这些函数都无法正常提示，而用js写是正常提示的，发现在js中提示的库是es5.lib.d.ts，在Javascript&gt;Libraries里引用这个库ts文件依旧不提示，只能把这个文件放到项目目录才有提示。ws用习惯了不想换vs code。有谁知道，如何在ws中添加全局的ts代码提示？</p> </div>",
+title: "webstorm写typescript不提示js常用函数是怎么回事？",
+last_reply_at: "2018-04-21T08:24:16.303Z",
+good: false,
+top: false,
+reply_count: 7,
+visit_count: 407,
+create_at: "2018-04-14T12:55:58.473Z",
+author: {
+loginname: "liuzhiguo11",
+avatar_url: "https://avatars3.githubusercontent.com/u/17982632?v=4&s=120"
+}
+},
+{
+id: "5adaec85ba60fcc66b7b8717",
+author_id: "567bb910a056d3460780577b",
+tab: "share",
+content: "<div class="markdown-text"><h2>1.信息传播的困境</h2> <p>互联网中，我们需要自己去通读理解信息，花费诸多时间与精力，才能知道信息的价值，甚至有时候以自己的能力，都无法判断信息价值的情况。</p> <ul> <li> <p>某些电影电视剧花钱买水军和数据误导我们，但是剧情，画面，特效等某些方面做得垃圾，不光浪费时间和金钱不说，还恶心你。剧情，画面，特效等在每个人的心中都有独特的权重，个人无法很好找到与其可产生共鸣的知音，无法较容易走到一起</p> </li> <li> <p>查找性价比高的手机信息，大多只能自己从搜索的茫茫水军信息中找有用的信息，因没有手机的专业知识，自己都无法判断信息真伪</p> </li> <li> <p>当在本地求医无门的时候想找专业的医生，但是网上充斥了诸多非专业的医生欺诈信息，我们无法有效分辨那些是真的，总是得亲身体验了才能知道真伪，有时候不光浪费我们时间，精力与金钱不说，还延误了治疗</p> </li> <li> <p>有人得了现代医学无法治愈的病(可反复试药），但是医生可能为了自己的利益推荐贵的药，好心的患者通过大胆对比给出了自己的解答，相较于懵懂未知的患者，这是相对较专业有用的信息，患者稍微比对就清楚了，但是这条信息会容易被诸多垃圾信息淹没掉，或者被误解为医药广告信息</p> </li> </ul> <p>在兴趣爱好推荐平台中，大多采用的是匿名投票，每人一票，没有推荐级别划分，无法表达每个人个性化想要推荐的程度。故没有他人个性化推荐程度数据，无法推断其在兴趣偏好上能否和自己产生共鸣，才会有知音大佬难寻的感慨，也就不太容易走到一起，无法有效的分享彼此之间的信息，还得自己花时间与精力去寻找和尝试。</p> <p>现有的AI推荐平台使用复杂的算法，通过个人阅读的历史信息，也只能做到粗略的推荐，还无法做到精确推荐易产生共鸣的信息。吐槽推荐UP主受欢迎的部分原因，其不光避免了对不上号的东西浪费时间，而且还节省了我们查找感兴趣信息的消耗。</p> <p>如韩愈《师说》中所述“闻道有先后,术业有专攻”,我们每个人所听到的道理都会有先有后，在某些领域都会有专业的和不专业的。我们并未形成专业信息与经验互补，这也导致因不专业，会较容易被某些投机者的欺诈愚弄。</p> <p>当我们涉足新领域的时候，也是因平台是匿名推荐的原因，没有他人专业的推荐赞成程度数据，无法推断一个人是否专业，也就无法有效找到专业且可信赖的大佬，获取其在相关领域的专业知识与经验，必须得自己用不专业的知识与经验，花费诸多时间与精力来查找。甚至专业的大佬想要提高其在相关领域的专业性，也是需要从海量的信息中查找有用专业的信息，并未直接且高效地从诸多专业的同行大佬，获取其尚未知晓的专业知识与经验。</p> <p>走在前面的人总结的知识与经验，并没有一个很好的方式传承下来，还要自己花费诸多时间，精力，金钱等去寻找，效力低下不说，还不专业，不专业又导致了诸多问题。</p> <h2>2.困境形成的原因</h2> <p>在互联网的赞成反对投票功能中，现在的做法都是按人头算，但是陌生人与信赖的大佬的赞成投票，两者之间的区别是非常大的，我们忽略了这个区别。</p> <p>每条信息都拥有自己唯一的发声者（即用户账号或者发布信息的组织），作为发声者都拥有发声权重，有的说话像放屁一样可以忽略不听，有的说话比较有参考价值可以重点听，我们不应该忽略这个非常重要的属性。</p> <p>赞成与反对按百分比做程度划分，100%与10%的赞成要表达的意愿，是两个完全不同的概念。未在互联网中加入程度划分，把不署名且不同程度的赞成都放进一个黑盒中，使得其已经失去绝大程度的参考价值，这不是我们想要的。</p> <p>忽略发声者的发声权重属性，导致信息极容易遭到茫茫水军的垃圾信息冲击，费时费力还可能找不到需要重点阅读的信息。未做信息的用户个性化推荐，赞成，反对等程度分级，使得其都搀合在一起，没有显示出用户自己要表达的意愿。互联网在这两个方面的不专业，使得我们无法快速找到有价值的信息，走在前面的人的信息，也已经失去绝大程度的参考价值，无法很好给后来的人作参考。</p> <h2>3.信息的奇妙属性</h2> <p>使用信赖程度来表示发声权重，现在我们为每条信息都附加上以下奇妙属性：</p> <ul> <li> <p>信息发声者的信赖程度：标识出此信息的可靠性，此属性甚至一眼就能看出来是不是大佬，是不是新人，是不是恶意作恶前科者等</p> </li> <li> <p>信息发声者的推荐程度：信息发声者对此信息的专业认可度</p> </li> <li> <p>多条其他信息发声者的信赖程度与赞成程度：多人个性化对此信息的专业认可度，此属性可大大提高信息的专业性容错率。当信息的可靠性不太牢靠（即信息发声者是新人，有恶意作恶前科者或者非资深大佬），或者信息比较重要想增加可靠性时，对其重点分析，尤其是对大佬的赞成反对程度，就可得出其的专业认可度</p> </li> </ul> <p>这三个奇妙属性，都与信息的专业性成正相关性：</p> <ul> <li> <p>根据其附带的信赖程度与推荐程度，就已经大概知道信息的专业认可度</p> </li> <li> <p>当一条信息被信赖程度不同的人予以赞成评价时，我们会优先考虑以信赖程度较高的为参考，只有当其参考性不足的时候，才会考虑信赖程度较低的</p> </li> <li> <p>那些为了自己的私利，提供过垃圾信息欺诈我们的，其已经彻底破坏了信赖关系，可忽略其从今往后提供的信息，有效避免再次被其欺诈。即使其以后可能会提供非常有价值的信息，忽略会使我们不是第一时间看到，但是也会被信赖关系较高的大佬予以信息价值的肯定，最终为我们所知道</p> </li> <li> <p>一个信赖程度高的大佬的信息，即可消灭许许多多的信赖程度低的水军垃圾信息</p> </li> <li> <p>在较极端情况下，当一条信息被专业且信赖的大佬给以100%赞成，我们甚至可以忽略其他人对其信息的赞成与反对的评价，在通读信息后也非常大可能对其也投以高度赞成</p> </li> </ul> <p>现在当一条信息呈现在我们面前的时候，在不通读信息的情况下，通过奇妙属性就知道了信息的专业性，在通读信息后，顺着专业的指引，使用更少量的时间与精力，也可完成信息的专业性验证。</p> <p>因不需通读信息就已经知道信息的专业性，使得我们在查找专业信息上更加专业，消耗的时间与精力将是极少的，前人总结的知识与经验将很好的传承下来。</p> <p>不需要再像以前一样，从搜索的茫茫信息海洋中查找验证信息的专业性，而且还是每个人都得耗时耗力重复这个过程，前人的努力成果没有传承下来。</p> <h2>4.如何建立信赖关系</h2> <p>不像在现实生活中，互联网中都是许许多多不熟悉且不认识的人，我们怎么建立他人的信赖关系记录档案呢？</p> <p>可查看其传播的历史信息，根据经验手动为其设置相应的信赖度，这里也称为信誉权值。信誉权值越高说明其提供的信息就越有价值，我们就可以奖励回报他与反馈适时提高其信誉权值。信誉权值越低说明其提供的信息就越没有价值，我们就可以隔离惩罚他与反馈适时降低其信誉权值。</p> <p>其传播的历史信息越多越有价值，那其的信誉权值肯定就越高。</p> <p>有时候都不需要查看其所有的历史信息，只需要查看其最有争议的几条信息，找到自己能够验证其专业性的，即可大致推断出其信誉权值。</p> <p>如果不是特别追求信息的时效性和范围性，只需要关注其中少数几个信赖的大佬，即可获得相关领域的诸多专业信息。这些诸多专业信息都是大佬以自己的知识与经验，已经做了专业程度推荐赞成处理，甚至还有理由，依据，证明，保证等。</p> <p>也只有大佬才需要特别追求信息的时效性和范围性，因不专业，可能都无法判断信息的专业性，先看到也就仅仅能关注下信息的发展情况。</p> <p>现在当我们进入一个新领域的时候，想办法找到其中一个可信赖的大佬，因其在该领域是专业的，就能知道那些人是专业的，那些人是不专业。在获取其授权允许后，复制其在该领域针对他人设置的信誉权值数据，这样我们马上就拥有了其在该领域的专业视角，依靠在其的肩膀上，顺着其宝贵经验的指引，使用较少时间与精力，即可完成专业信息的价值验证，解决因个人不专业带来的诸多问题。甚至专业大佬也可通过其他大佬，直接获取其尚未知晓的，但已被其他大佬验证其专业性的信息。</p> <h2>5.专业带来的因果</h2> <p>因为专业，所以更能区分信息的专业程度，使得其在相关领域拥有更高的信誉权值，所发的信息又会更加值得参考。当然你也可以因为利益问题不专业一下，信息的奇妙属性带来的高容错性，导致了自己给别人印象是不太专业，降低自己在相关领域信誉权值，使得你好不容易建立的大量不专业追随者，会转而去寻找一个比你更加专业，信誉权值更高，专业信息更值得参考的。</p> <p>任何人想到相关领域发不专业的信息，企图欺诈行骗将成为不可能，因其将被资深专业人士识别并曝光出来。新人发布的专业信息，会因其是专业的，也将会被专业人士识别出来，并被标识出专业程度推荐到其他人眼中。</p> <p>有人企图冒充大佬使坏，通过订阅资深大佬的专业信息，以东施效颦的方式慢慢混信誉权值，但是只要其胆敢发布非专业信息进行欺诈，还是马上会被专业的大佬打出其骗子的原型。其实这类冒充大佬的也很好识别，其因没有相关的专业知识，无法第一时间做出自己对信息的专业判断，只能跟在大佬屁股后面吆喝，找下拥有此类明显特征的就是冒充大佬的。</p> <h2>6.促进平台的发展</h2> <p>古有客人向店小二付费获取专业信息的先例，付费买专业和高效，平台引入付费机制，用户付费直接获取享受专业人士已经总结出来的知识与经验，专业人士的知识与经验又可多卖给更多需求的用户，毕竟大佬也是需要拿钱才能吃饭的。</p> <p>以前是因为没有对每个人做个性化区别，专业人士的知识与经验无法很好被传承，其专业努力成果也得不到相应的回报，使得其缺乏动力去做专业的事。平台需要鼓励和奖励专业人士（或者组织）做专业的事，这样人们一提起某领域的专业性就想起这个平台，吸引越来越多的人加入才后能做更加专业的事，从而形成平台良性循环发展。</p> <p>平台需要为新人进入相关领域时，让其更加方便地找到非常专业且可靠的大佬，使其更快地融入到这个新进入的领域，获取其需要的专业信息。提供多专业视角切换和分析，更加直观方面的用户体验，让用户更加方便推断信息的专业性。</p> <p>甚至当平台打出专业声誉了以后，让用户直接告诉平台，自己想要的专业信息的独特权重与限定条件（平台需要有独特权重的推荐程度信息），平台直接给用户推荐对口的专业大佬。</p> <p>对于不专业人士有担忧，其在平台上可能遭遇不专业信息欺诈情况，在某些领域引入某些保证奖惩机制，来保证信息的专业性，促进专业信息能更加高效的传播。</p> <h2>7.平台初期的发展</h2> <p>平台使用保证奖惩机制来保证某些领域的信息的专业性，主要目标是吸引用户，打造出自己的平台专业性的信誉，才能实现让用户愿意为专业高效付费，获取专业大佬最新的专业信息。</p> <p>想要使用平台的大致区分两类人，专业的和不专业的。</p> <p>平台初期对于拥有专业性识别能力的人士会友好一些，比如在兴趣爱好方面，我们每个人都是自己兴趣偏好上最专业的大佬，拥有对其专业性的判断验证能力。通过平台根据他人推荐程度历史信息，很容易就能找到和自己产生共鸣的知音，而且对其的专业程度也是清楚的。这样一来关注多个知音大佬，获取自己尚未知晓但其做了推荐程度的信息，按优先级划分解读后，就可有方向性做诸如补未看的新闻资讯，电影，电视剧，动漫，小说等，而且这些都是做了优先级划分，容易引起自己共鸣的兴趣偏好内容，多位知音大佬对同一内容都有强烈推荐的话又大大增加其的容错率。</p> <p>对于不专业人士，正是因为其不专业，所以才想找专业的，但是又因为不专业，可能都无法分辨那些人是专业的，那些不是专业的，会容易陷入恶性循环。平台提供保证奖惩机制来确保信息的专业性，使得迫切需求专业信息的用户，更加愿意使用平台，来获取专业的信息。</p> <h2>8.平台的优势</h2> <p>平台在某些专业领域引入保证奖惩机制，高惩罚力度使用户因得不偿失，不敢轻易发布不专业信息，确保信息的专业性会更强，使得迫切需求专业信息的人士更加有信心和保障，来使用新平台来获取专业信息。</p> <p>现有旧平台无法屏蔽那些恶心的恶意发布垃圾信息者，就算是知道其是不专业的，还得每天都忍受其垃圾信息荼毒。新平台将彻底改变这种情况，使得用户将更加愿意使用新平台来获取信息。</p> <p>新平台会更加符合用户体验，用户使用传承的方式获取专业的信息，极大缩短用户查找与验证专业信息的消耗（时间，精力，金钱等）。不仅可用专业的人士解决不专业人士的诸多问题，专业人士之间的专业信息流通和获取更加快捷，而且在兴趣爱好上，使得用户容易找到与其兴趣偏好产生共鸣的知音，更好地走到一起。整体都使得所有专业信息的传播更加专业，更加高效。</p> </div>",
+title: "互联网史上最有问题的用户体验，刚需风口来临？！",
+last_reply_at: "2018-04-21T07:47:17.448Z",
+good: false,
+top: false,
+reply_count: 0,
+visit_count: 217,
+create_at: "2018-04-21T07:47:17.448Z",
+author: {
+loginname: "zyq5945",
+avatar_url: "https://avatars1.githubusercontent.com/u/6050413?v=4&s=120"
+}
+},
+{
+id: "5ad850c03edb2aff6be85d51",
+author_id: "56fb8ede8265278d59c7e304",
+tab: "ask",
+content: "<div class="markdown-text"><p>领导说GraphQL很火，强制让我们使用，可我发现这个东西出来那么多年，根本就没有火起来，使用了GraphQL不知道是对前端有好处，还是对后端友好，感觉体验了一番， 不知道解决了什么痛点???</p> </div>",
+title: "GraphQL 火吗？",
+last_reply_at: "2018-04-21T06:20:09.373Z",
+good: false,
+top: false,
+reply_count: 10,
+visit_count: 654,
+create_at: "2018-04-19T08:18:08.863Z",
+author: {
+loginname: "JerrysShan",
+avatar_url: "https://avatars1.githubusercontent.com/u/13977368?v=4&s=120"
+}
+},
+{
+id: "589c45815dfbcdfa083b410d",
+author_id: "5897e096f46268be08aea4f4",
+tab: "ask",
+content: "<div class="markdown-text"><p>自己是个一年多年前端，最近要换工作，突然有了向做后端的感觉？ 最主要的是我一直觉得，不管前端还是后端，都是 web 的一部分，想走到最后，必然是两个都要会的。所以可以趁现在刚毕业，尝试着走走后端的路，最终可能再回到前端，也可能一直就留在后端了。</p> <p>自己以前也写过一些简单的后端，主要是 Node ，偶尔碰碰 Rails，自己如果转型，肯定是首选 Node。其实相对来说，我现在还是觉得前端比较好玩，虽然各种技术混乱，但是混乱中才可能有更多的好玩的东西出现，Node 可能现在接触的不算多，还没有发现很多有意思的玩意。</p> <p>所以现在想看看大家的看法，毕竟，从零开始一个领域并不容易，需要积累的很多，虽然 Node 和前端都用 js ，但是后端的思想还是要从头学起。</p> </div>",
+title: "关于前端转 Node 不知道大家有什么看法",
+last_reply_at: "2018-04-21T04:55:51.795Z",
+good: false,
+top: false,
+reply_count: 5,
+visit_count: 1817,
+create_at: "2017-02-09T10:33:37.423Z",
+author: {
+loginname: "jinzhuming",
+avatar_url: "https://avatars1.githubusercontent.com/u/19699476?v=3&s=120"
+}
+},
+{
+id: "5adab8c0ba60fcc66b7b8709",
+author_id: "53819b20a087f456201b8f13",
+tab: "ask",
+content: "<div class="markdown-text"><p>最近项目中有一个getuserinfo的查询是客户端一直轮询的，然后上了alinode发现整个项目cpu很高，看了cpuprofile发现都是mongoose对象序列化的消耗。 <code>db.find({userId:xxx})</code> 然后就计划准备把这个查询的部分都加上lean true现在还没测试具体性能</p> <p>如果这样性能提升的话 计划把所有只读操作都改成lean。不过这样有一个问题，就是virtual属性也不能用了，有什么办法只使用virtual属性 其他save什么的都不序列化的配置嘛 没有的话感觉要自己实现了返回的时候</p> </div>",
+title: "mongoose的lean使用情况",
+last_reply_at: "2018-04-21T04:06:24.468Z",
+good: false,
+top: false,
+reply_count: 0,
+visit_count: 149,
+create_at: "2018-04-21T04:06:24.468Z",
+author: {
+loginname: "koroshi",
+avatar_url: "https://avatars0.githubusercontent.com/u/7600053?v=4&s=120"
+}
+},
+{
+id: "5ad99acea7d228c16b9870ea",
+author_id: "590e9e12d371b6372a8af650",
+tab: "ask",
+content: "<div class="markdown-text"><p>比如我有下面3个域名（都是https的） <a href="https://egg1.domain.com">https://egg1.domain.com</a>、<a href="https://egg2.domain.com">https://egg2.domain.com</a>、<a href="https://egg3.domain.com">https://egg3.domain.com</a> 请问在egg我应该怎样配置呢？</p> </div>",
+title: "egg怎样配置多个SSL证书啊？",
+last_reply_at: "2018-04-21T03:57:36.709Z",
+good: false,
+top: false,
+reply_count: 8,
+visit_count: 239,
+create_at: "2018-04-20T07:46:22.347Z",
+author: {
+loginname: "YJZhen",
+avatar_url: "https://avatars0.githubusercontent.com/u/3471614?v=4&s=120"
+}
+},
+{
+id: "5a6dab899288dc81532882da",
+author_id: "58de5214b3e60b982d089dc3",
+tab: "ask",
+content: "<div class="markdown-text"><p>年纪大了快要撤回老家了, 西安基本没有node的机会, 已经学了一段时间java了, 你们有什么想说的😅 <img src="//dn-cnode.qbox.me/FvEO9kBO_IeCP-xuQnCHy9sa9YrV" alt="image.png"> <img src="//dn-cnode.qbox.me/FoJgaTvsz9m0mTGNXZM1EF1CRAaB" alt="image.png"></p> </div>",
+title: "不得已要放下node, 转java了",
+last_reply_at: "2018-04-21T02:16:41.223Z",
+good: false,
+top: false,
+reply_count: 58,
+visit_count: 4121,
+create_at: "2018-01-28T10:52:57.720Z",
+author: {
+loginname: "xiaozhongliu",
+avatar_url: "https://avatars3.githubusercontent.com/u/17674404?v=4&s=120"
+}
+},
+{
+id: "5ab1ebb5e7b166bb7b9eccaa",
+author_id: "5ab1e8e8e7b166bb7b9ecca9",
+tab: "ask",
+content: "<div class="markdown-text"><h4>已经在项目中使用的前端技能</h4> <ol> <li>jquery,</li> <li>vue,</li> <li>hybrid app(apiCloud)</li> </ol> <h4>业余学习的技能</h4> <ol> <li>express + mongodb + cenOS(阿里云)</li> <li>koa2+ mysql</li> </ol> <h4>坚持深入了解的</h4> <p>1.koa 2.mysql 3.vue</p> <h4>计划发展</h4> <ol> <li>java</li> <li>react native</li> <li>python</li> </ol> <h4>选择哪一个好呢，如何更进一步的提升自己,</h4> <p>其实就是为了钱，选择哪一个提升薪资高，能进大厂最好， 如果不能进大厂，打算30岁左右转行，现在25</p> </div>",
+title: "工作2年多的前端，现在迷茫了，如何更进一步的提升自己",
+last_reply_at: "2018-04-21T02:15:57.445Z",
+good: false,
+top: false,
+reply_count: 41,
+visit_count: 3085,
+create_at: "2018-03-21T05:20:53.951Z",
+author: {
+loginname: "1134506391",
+avatar_url: "https://avatars2.githubusercontent.com/u/30287598?v=4&s=120"
+}
+},
+{
+id: "5ac82c9937f5d1510f57c93d",
+author_id: "576a5d4063075514079b77e7",
+tab: "share",
+content: "<div class="markdown-text"><p>翻译了一篇国外的面试题</p> <p><a href="https://www.liayal.com/article/5ac46c20a6cf4e67bc05c9f4">Js面试算法</a></p> </div>",
+title: "Js面试算法",
+last_reply_at: "2018-04-20T17:52:11.333Z",
+good: false,
+top: false,
+reply_count: 5,
+visit_count: 1043,
+create_at: "2018-04-07T02:27:37.330Z",
+author: {
+loginname: "MaelWeb",
+avatar_url: "https://avatars1.githubusercontent.com/u/7869311?v=4&s=120"
+}
+}
+]
+}

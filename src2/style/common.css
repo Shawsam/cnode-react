@@ -1,0 +1,36 @@
+*{padding:0;margin:0; font-size:14px;}
+ul,li{ padding:0; margin:0; list-style:none; }
+a{ text-decoration:none; }
+body{ background:#ddd; }
+.content{ width:90%; margin:0 auto; }
+.header{ background:#444; overflow:hidden; zoom:1; } 
+.header .title{ float:left; height:45px; line-height:45px; padding:0 15px; margin:0;  }
+.header .title a{ color:#fff; font-size:18px; }
+.header .nav { float:right; }
+.header .nav li{ display:inline-block; padding:0 20px; height:45px; line-height:45px; }
+.header .nav li a{ color:#fff; text-align:center; }
+.header .nav li a.selected{ color:#ff6263; }
+.framepage{ margin:15px auto;}
+.framepage .sidebar{ width:350px; float:right; border-radius:3px; margin-bottom:10px; }
+.framepage .main{ margin-right:380px; border-radius:3px; margin-bottom:10px; }
+
+
+.panel{ background:#fff; border-radius:3px; margin-bottom:20px; border-radius:5px; }
+.panel .title{ padding:8px 15px; background:#f1f1f1; }
+.panel .list{ padding:8px 0; }
+.panel .list li{cursor:pointer; padding:4px 20px; } 
+.panel .list li a{ color:#333; }
+.panel .list li a:hover{ text-decoration:underline; }
+
+/***==========首页========***/
+.panel .cateMenu li{ cursor:pointer; display:inline-block; margin:0 10px; color:#61A929; padding:0 6px; }
+.panel .cateMenu li.active{ background:#61A929; color:#fff; border-radius:3px; }
+.panel .mainListCon li{cursor:pointer; padding:12px 15px; border-bottom:1px solid #e8e8e8; padding-right:100px; position:relative; } 
+.panel .mainListCon li .time{ position:absolute; right:15px; line-height:21px; color:#999; font-size:13px;}
+.panel .mainListCon li .avatar{ height:22px; width:22px; display:inline-block; vertical-align:middle; border-radius:100%; }
+.panel .mainListCon li a{ width:70%; font-size:15px; vertical-align:middle; display:inline-block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap }
+.panel .mainListCon li label{ margin:0 8px; font-size:10px; padding:1px 5px; vertical-align:middle; background:#ddd; border-radius:3px; }
+.panel .mainListCon li label.good{ background:#61A929; color:#fff; }
+
+.page{ padding:12px 0 20px 0; }
+.ant-pagination { text-align:center; margin:0 auto; }
